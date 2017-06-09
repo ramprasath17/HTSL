@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Event Registration</title>
+        <!--<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>-->
+    <script src="../Sample1/angular1.4.8.js"></script>
+</head>
+<body ng-app="sampleApp">
+<div ng-controller="AngularController">
+    <h3> Guru99 Global Event</h3>
+		<div ng-include src="'Table.html'"></div>
+</div>
+<script>
+
+    var sampleApp = angular.module('sampleApp', []);
+    sampleApp.controller('AngularController', function ($scope) {
+        $scope.tutorial = [
+            { Name: "Controllers", Description: "Controllers in action" },
+            { Name: "Models", Description: "Models and binding data" },
+            { Name: "Directives", Description: "Flexibility of Directives" }
+        ];
+
+    });
+</script>
+</body>
+</html>

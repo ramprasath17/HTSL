@@ -1,0 +1,13 @@
+﻿<div class="">
+         
+ <div class="col-xs-12 col-sm-12 col-lg-12 bodystyle" >DCS Cabinet
+ <a style="float:right;margin-top:-7px" class="btn btn-sm btn-info btn-flat" ui-sref ="DCShref">Overall Series-C</a><i ng-click="toggleModal('DCShref');" style="float:right;margin-right:2px;cursor:pointer;" class="fa fa-search" ></i></div>
+    
+            <div class="col-xs-12 col-sm-12 col-lg-12 hgt " ng-controller="FrontCtrl"  ng-dblClick="changeView('dcsFronthref')">
+             <div class="svglabel">DCS Front Side</div> <i style="float:right;margin-right:2px;cursor:pointer;" class="fa fa-search" ng-click="toggleModal('dcsFronthref');"></i> <div class="Front"></div> <!--<div ng-include src="'dcsFront.html'"></div>-->
+            </div>
+            <div class="col-xs-12 col-sm-12 col-lg-12 hgt" ng-controller="RearCtrl" ng-dblClick="changeView('dcsRearhref')" >
+                 <div class="svglabel">DCS Rear Side</div><i style="float:right;margin-right:2px;cursor:pointer;" class="fa fa-search" ng-click="toggleModal('dcsRearhref');"></i><!--<div ng-include src="'dcsRear.html'"></div>--><div class="Rear"></div>
+            </div>
+       
+</div>
