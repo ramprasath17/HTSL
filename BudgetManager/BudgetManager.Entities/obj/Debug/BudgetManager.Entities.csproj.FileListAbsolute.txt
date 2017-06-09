@@ -1,0 +1,36 @@
+D:\Hameed\Project\BudgetManager\BudgetManager.Entities\bin\Debug\BudgetManager.Entities.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Entities\bin\Debug\BudgetManager.Entities.pdb
+D:\Hameed\Project\BudgetManager\BudgetManager.Entities\bin\Debug\Elmah.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Entities\bin\Debug\Elmah.Mvc.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Entities\obj\Debug\BudgetManager.Entities.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Entities\obj\Debug\BudgetManager.Entities.pdb
+D:\Hameed\Project\BudgetManager\BudgetManager.Entities\bin\Debug\BudgetManager.SharedAssembly.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Entities\bin\Debug\BudgetManager.SharedAssembly.pdb
+D:\Hameed\Project\BudgetManager\BudgetManager.Entities\obj\Debug\BudgetManager.Entities.csprojResolveAssemblyReference.cache
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Entities\bin\Debug\BudgetManager.Entities.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Entities\bin\Debug\BudgetManager.Entities.pdb
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Entities\bin\Debug\BudgetManager.SharedAssembly.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Entities\bin\Debug\Elmah.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Entities\bin\Debug\Elmah.Mvc.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Entities\bin\Debug\BudgetManager.SharedAssembly.pdb
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Entities\obj\Debug\BudgetManager.Entities.csprojResolveAssemblyReference.cache
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Entities\obj\Debug\BudgetManager.Entities.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Entities\obj\Debug\BudgetManager.Entities.pdb
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Entities\bin\Debug\BudgetManager.Entities.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Entities\bin\Debug\BudgetManager.Entities.pdb
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Entities\bin\Debug\BudgetManager.SharedAssembly.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Entities\bin\Debug\Elmah.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Entities\bin\Debug\Elmah.Mvc.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Entities\bin\Debug\BudgetManager.SharedAssembly.pdb
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Entities\obj\Debug\BudgetManager.Entities.csprojResolveAssemblyReference.cache
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Entities\obj\Debug\BudgetManager.Entities.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Entities\obj\Debug\BudgetManager.Entities.pdb
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Entities\bin\Debug\BudgetManager.Entities.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Entities\bin\Debug\BudgetManager.Entities.pdb
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Entities\bin\Debug\BudgetManager.SharedAssembly.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Entities\bin\Debug\Elmah.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Entities\bin\Debug\Elmah.Mvc.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Entities\bin\Debug\BudgetManager.SharedAssembly.pdb
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Entities\obj\Debug\BudgetManager.Entities.csprojResolveAssemblyReference.cache
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Entities\obj\Debug\BudgetManager.Entities.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Entities\obj\Debug\BudgetManager.Entities.pdb

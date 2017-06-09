@@ -1,0 +1,10 @@
+﻿@model bool
+@{string isChecked = string.Empty;
+  if (Model.Equals(true))
+  {
+      isChecked = "checked";
+  }
+
+    <input name="switch-field-1" class="ace-switch ace-switch-6 userPermissionCheckBox" type="checkbox" @isChecked data-is-checked="@Model.ToString()" disabled="disabled" />
+    <span class="lbl"></span>
+}

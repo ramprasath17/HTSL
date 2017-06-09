@@ -1,0 +1,52 @@
+﻿@model ManageBudgetCategoryViewModel
+<div class="row-fluid">
+    <h3 class="header smaller lighter blue">Manage category</h3>
+    <div class="row-fluid">
+        <div class="table-header">
+            You may edit / remove your budget categories.
+        </div>
+        <div role="grid" class="dataTables_wrapper" id="sample-table-1_wrapper">
+            <table class="table table-striped table-bordered table-hover" id="BudgetTable">
+                <thead>
+                    <tr role="row">
+                        <th class="center sorting_disabled" role="columnheader" rowspan="1" colspan="1" style="width: 57px;" aria-label="">
+                            <label>
+                                <input type="checkbox">
+                                <span class="lbl"></span>
+                            </label>
+                        </th>
+                        <th role="columnheader">Category</th>
+                        <th role="columnheader" class="hidden-480">Created By</th>
+                        <th class="sorting_disabled"></th>
+                    </tr>
+                </thead>
+
+                <tbody role="alert" aria-live="polite" aria-relevant="all">
+                    @foreach (BudgetCategory budgetCategoryModel in Model.Categories)
+                    {
+                        <tr data-record-id="@budgetCategoryModel.CategoryId" data-component="C">
+                            <td class="center sorting_1">
+                                <label>
+                                    <input type="checkbox">
+                                    <span class="lbl"></span>
+                                </label>
+                            </td>
+                            <td data-editable="true" data-column="Category">
+                                @Html.DisplayFor(category => budgetCategoryModel.CategoryName)
+                            </td>
+                            <td data-editable="false" data-column="CreatedBy">
+                                @Html.DisplayFor(category => budgetCategoryModel.CreatedBy)
+                            </td>
+                            <td class="sorting_disabled">
+                                @{                                
+                        Html.RenderPartial("_ActionControlBlock");
+                                }
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!--/span-->
+</div>

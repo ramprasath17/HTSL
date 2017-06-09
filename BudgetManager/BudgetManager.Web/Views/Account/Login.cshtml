@@ -1,0 +1,73 @@
+﻿@model BudgetManager.Web.Models.LogInViewModel
+@{
+    ViewBag.Title = "Log In";    
+}
+@section headerLinks
+                {
+    <li>@Html.ActionLink("Home", "Home", "Account")</li>
+    <li>@Html.ActionLink("Sign Up", "Register", "Account")</li>
+}
+<div class="row-fluid">
+    <div class="span5">
+
+        <div class="alert alert-success">
+            Dont' have an account yet then register with us, @Html.ActionLink("REGISTER", "register", null, htmlAttributes: new { @class = "" }).
+        </div>
+        @Html.Partial("_validationSummary")
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                Log In
+            </div>
+
+            <div class="panel-body">
+                @using (Html.BeginForm("Login", "Account", null, FormMethod.Post, htmlAttributes: new { id = "form1", @class = "form-horizontal logInForm", role = "form" }))
+                {
+                    @Html.AntiForgeryToken()
+                    
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.userName, new { @for = "userid", @class = "col-sm-3 control-label" })
+                        <div class="col-sm-6">
+                            <div class="input-group">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+                                @Html.TextBoxFor(m => m.userName, new { @class = "form-control", id = "userid", placeholder = "Enter your username" })
+                            </div>
+                            <p class="text-danger">
+                                @Html.ValidationMessageFor(m => m.userName)
+                            </p>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.password, new { @for = "userpassword", @class = "col-sm-3 control-label" })
+                        <div class="col-sm-6">
+                            <div class="input-group">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
+                                @Html.PasswordFor(m => m.password, new { @class = "form-control", id = "userpassword", placeholder = "Enter your password" })
+                            </div>
+                            <p class="text-danger">
+                                @Html.ValidationMessageFor(m => m.password)
+                            </p>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-5">
+                            <div class="checkbox">
+                                <label>
+                                    @Html.CheckBoxFor(m => m.rememberMe)
+                                    Remember me
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-3">
+                            <button type="submit" class="btn btn-primary">Sign in</button>
+                        </div>
+                    </div>                 
+                }
+                <div class="span6 pull-right">
+                    @Html.ActionLink(BudgetManager.Entities.Messages.ForgottenPasswordLinkText, "forgotpassword", "account", null)
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

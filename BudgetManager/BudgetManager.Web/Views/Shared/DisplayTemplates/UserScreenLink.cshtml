@@ -1,0 +1,10 @@
+﻿@model IEnumerable<UserScreenLink>
+@foreach(UserScreenLink userScreen in Model)
+{
+<li>
+    <a href="@Url.Action(userScreen.ActionName, userScreen.ControllerName, new { area = userScreen.AreaName })" >
+        <i class="@userScreen.LinkIcon"></i>
+        <span class="menu-text">@userScreen.ActionLinkText</span>
+    </a>
+</li>
+}

@@ -1,0 +1,23 @@
+﻿@model UserSearchResultViewModel
+@if (!Model.ShowToInvite)
+{                                                                             
+    <span title="" data-content="People within same company cannot be invited." data-placement="left" data-trigger="hover" data-rel="popover" class="help-button1" data-original-title="Help">
+        <i class="icon-remove icon-2x red"></i>
+    </span>                            
+}
+else if (Model.InvitationStatus == 0)
+{
+    <a href="javascript:void(0);" class="invite label label-info arrowed-right arrowed-in">Invite</a>
+}
+else if (Model.InvitationStatus == 1)
+{
+    <span class="label label-important arrowed">Pending</span>
+}
+else if (Model.InvitationStatus == 2)
+{
+    <span class="label label-success arrowed-in arrowed-in-right">Accepted</span>
+}
+else
+{
+    <span class="label label-warning arrowed-in arrowed-in-right">UnKnown</span>
+}

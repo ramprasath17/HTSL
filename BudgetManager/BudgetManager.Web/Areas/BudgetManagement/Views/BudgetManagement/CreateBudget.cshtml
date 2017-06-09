@@ -1,0 +1,69 @@
+﻿@model BudgetManager.Web.Areas.BudgetManagement.Models.BudgetDetails
+@{
+    ViewBag.Title = "Create Budget";
+}
+<div class="table-header">
+    <h2>Create Budget</h2>
+</div>
+<link href="~/Content/DatePicker/daterangepicker-bs2.css" rel="stylesheet" />
+@using (Html.BeginForm("CreateBudget", "BudgetManagement", new { area = "BudgetManagement" }, FormMethod.Post, htmlAttributes: new { id = "BudgetForm", @class = "form-horizontal" }))
+{
+    @Html.AntiForgeryToken()                   
+
+    if (Model.HasEditAccess)
+    {
+
+        Html.EnableClientValidation(true);
+        Html.EnableUnobtrusiveJavaScript(true);    
+    <div class="row-fluid">
+        <div class="span12">
+            @Html.Partial("_validationSummary")
+
+            @Html.Partial("_BasicDetails", Model)
+            @*@Html.Partial("_Duration", Model)
+            @Html.Partial("_AmountAllocation", Model)*@
+        </div>
+    </div>   
+    <div class="pull-right">
+        <input type="submit" value="Create" name="CreateBudget" class="btn btn-gray" id="CreateABudget" />
+    </div>
+    }
+    else
+    {
+    <div>Not allowed to access/view the contents of the screen.</div>
+    }
+}
+
+@section BreadCrumb{
+    <div class="page-header position-relative">
+        <h1>Manage Budgets
+			<small>
+                <i class="icon-double-angle-right"></i>
+                Create Budget(s)
+            </small>
+        </h1>
+    </div>
+}
+
+@section BootstrapScripts
+{
+    @Scripts.Render("~/bundles/jqueryval")
+    <script type="text/javascript">
+        $(function () {
+            $('.calendar').datetimepicker({
+                language: 'en',
+                maxDate: 0
+                //format: 'dd MM yyyy',
+                //setDate: new Date(),
+            });
+        });
+
+        $('#BudgetPeriod').daterangepicker(
+          {
+              //format: 'DD MM YYYY'
+          }
+        );
+
+        $(".chzn-select").chosen();
+    </script>
+}

@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "Message";
+}
+
+@section headerLinks
+                {
+    <li>@Html.ActionLink("Home", "Home", "Account")</li>
+    <li>@Html.ActionLink("Log In", "Login", "Account")</li>
+}
+<div class="container">
+    <div class="row alert alert-danger ">
+        @ViewBag.verificationStatus
+        <br />
+        @BudgetManager.Infrastructure.Helpers.ErrorMessage.ErrorMessageHelper.GetExceptionDetails()
+    </div>
+    </div>

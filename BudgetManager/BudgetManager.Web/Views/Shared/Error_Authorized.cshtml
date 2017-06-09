@@ -1,0 +1,27 @@
+﻿<div tabindex="-1" class="modal hide" id="modal-table" style="display: none;" aria-hidden="true">
+    <div class="modal-header no-padding">
+        <div class="table-header">
+            <button data-dismiss="modal" class="close" type="button">×</button>
+            Exception Details
+        </div>
+    </div>
+
+    <div class="modal-body">
+        <div class="row-fluid">
+            <div class="span12 text-info">
+                Please review the error details. And report if problem persists.
+            </div>
+            <div class="span12">
+                <h4 class="text-info">Message: </h4>
+                <div class="span12 text-error">
+                    @ViewBag.ErrorMessage
+                </div>
+                <h4 class="text-info">Stack Trace: </h4>
+                <div class="span12 text-error">@ViewBag.StackTrace
+                    <br />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="exception-status"></div>

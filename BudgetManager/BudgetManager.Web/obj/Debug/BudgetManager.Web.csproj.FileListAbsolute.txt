@@ -1,0 +1,308 @@
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.Web.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.Web.pdb
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\Antlr3.Runtime.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.Entities.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.Helpers.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.Infrastructure.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.Repository.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.Security.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.SharedAssembly.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\Elmah.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\Elmah.Mvc.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\EntityFramework.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\Forloop.HtmlHelpers.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\Microsoft.Web.Mvc.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\MiniProfiler.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\MiniProfiler.Mvc.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\Newtonsoft.Json.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\Ninject.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\Ninject.Web.Common.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\Ninject.Web.Mvc.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\System.Net.Http.Formatting.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\System.Web.Http.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\System.Web.Http.WebHost.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\System.Web.Mvc.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\System.Web.Optimization.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\System.Web.Providers.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\System.Web.Razor.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\System.Web.WebPages.Deployment.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\System.Web.WebPages.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\System.Web.WebPages.Razor.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\WebActivator.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\WebGrease.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\WebMatrix.Data.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\WebMatrix.WebData.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.DataLibrary.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.Entities.pdb
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.Helpers.pdb
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.Infrastructure.pdb
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.Repository.pdb
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.Security.pdb
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.SharedAssembly.pdb
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\Forloop.HtmlHelpers.xml
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\MiniProfiler.pdb
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\MiniProfiler.xml
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\MiniProfiler.Mvc.pdb
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\Ninject.pdb
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\Ninject.xml
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\Ninject.Web.Common.pdb
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\Ninject.Web.Common.xml
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\Ninject.Web.Mvc.pdb
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\Ninject.Web.Mvc.xml
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\System.Web.Mvc.xml
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\EntityFramework.xml
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\Newtonsoft.Json.xml
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\System.Net.Http.Formatting.xml
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\System.Web.Http.xml
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\System.Web.Http.WebHost.xml
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\System.Web.Razor.xml
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\System.Web.WebPages.xml
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\System.Web.WebPages.Deployment.xml
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\System.Web.WebPages.Razor.xml
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\WebMatrix.Data.xml
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\WebMatrix.WebData.xml
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.DataLibrary.pdb
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\obj\Debug\BudgetManager.Web.csprojResolveAssemblyReference.cache
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\obj\Debug\BudgetManager.Web.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\obj\Debug\BudgetManager.Web.pdb
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\AutoMapper.Net4.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\Aspose.Cells.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\AutoMapper.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.ReportSchemaValidator.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.ReportUtility.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\ReadablePasswordGenerator.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.ReportSchemaValidator.pdb
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.ReportUtility.pdb
+D:\Hameed\Project\BudgetManager\BudgetManager.Web\bin\AutoMapper.xml
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\AutoMapper.Net4.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.Web.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.Web.pdb
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\Antlr3.Runtime.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\Aspose.Cells.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\AutoMapper.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.Entities.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.Helpers.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.Infrastructure.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.ReportSchemaValidator.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.ReportUtility.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.Repository.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.Security.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.SharedAssembly.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\Elmah.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\Elmah.Mvc.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\EntityFramework.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\Forloop.HtmlHelpers.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\Microsoft.Web.Infrastructure.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\Microsoft.Web.Mvc.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\MiniProfiler.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\MiniProfiler.Mvc.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\Newtonsoft.Json.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\Ninject.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\Ninject.Web.Common.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\Ninject.Web.Mvc.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\ReadablePasswordGenerator.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\System.Net.Http.Formatting.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\System.Web.Http.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\System.Web.Http.WebHost.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\System.Web.Mvc.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\System.Web.Optimization.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\System.Web.Providers.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\System.Web.Razor.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\System.Web.WebPages.Deployment.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\System.Web.WebPages.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\System.Web.WebPages.Razor.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\WebActivator.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\WebGrease.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\WebMatrix.Data.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\WebMatrix.WebData.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.DataLibrary.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.Entities.pdb
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.Helpers.pdb
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.Infrastructure.pdb
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.ReportSchemaValidator.pdb
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.ReportUtility.pdb
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.Repository.pdb
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.Security.pdb
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.SharedAssembly.pdb
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\AutoMapper.xml
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\Forloop.HtmlHelpers.xml
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\MiniProfiler.pdb
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\MiniProfiler.xml
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\MiniProfiler.Mvc.pdb
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\Ninject.pdb
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\Ninject.xml
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\Ninject.Web.Common.pdb
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\Ninject.Web.Common.xml
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\Ninject.Web.Mvc.pdb
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\Ninject.Web.Mvc.xml
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\System.Web.Mvc.xml
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\EntityFramework.xml
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\Newtonsoft.Json.xml
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\System.Net.Http.Formatting.xml
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\System.Web.Http.xml
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\System.Web.Http.WebHost.xml
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\System.Web.Razor.xml
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\System.Web.WebPages.xml
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\System.Web.WebPages.Deployment.xml
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\System.Web.WebPages.Razor.xml
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\WebMatrix.Data.xml
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\WebMatrix.WebData.xml
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.DataLibrary.pdb
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\obj\Debug\BudgetManager.Web.csprojResolveAssemblyReference.cache
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\obj\Debug\BudgetManager.Web.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Web\obj\Debug\BudgetManager.Web.pdb
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\AutoMapper.Net4.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.Web.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.Web.pdb
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\Antlr3.Runtime.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\Aspose.Cells.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\AutoMapper.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.Entities.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.Helpers.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.Infrastructure.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.ReportSchemaValidator.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.ReportUtility.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.Repository.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.Security.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.SharedAssembly.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\Elmah.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\Elmah.Mvc.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\EntityFramework.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\Forloop.HtmlHelpers.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\Microsoft.Web.Mvc.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\MiniProfiler.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\MiniProfiler.Mvc.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\Newtonsoft.Json.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\Ninject.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\Ninject.Web.Common.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\Ninject.Web.Mvc.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\ReadablePasswordGenerator.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\System.Net.Http.Formatting.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\System.Web.Http.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\System.Web.Http.WebHost.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\System.Web.Mvc.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\System.Web.Optimization.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\System.Web.Providers.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\System.Web.Razor.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\System.Web.WebPages.Deployment.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\System.Web.WebPages.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\System.Web.WebPages.Razor.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\WebActivator.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\WebGrease.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\WebMatrix.Data.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\WebMatrix.WebData.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.DataLibrary.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.Entities.pdb
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.Helpers.pdb
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.Infrastructure.pdb
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.ReportSchemaValidator.pdb
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.ReportUtility.pdb
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.Repository.pdb
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.Security.pdb
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.SharedAssembly.pdb
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\AutoMapper.xml
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\Forloop.HtmlHelpers.xml
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\MiniProfiler.pdb
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\MiniProfiler.xml
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\MiniProfiler.Mvc.pdb
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\Ninject.pdb
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\Ninject.xml
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\Ninject.Web.Common.pdb
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\Ninject.Web.Common.xml
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\Ninject.Web.Mvc.pdb
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\Ninject.Web.Mvc.xml
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\System.Web.Mvc.xml
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\EntityFramework.xml
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\Newtonsoft.Json.xml
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\System.Net.Http.Formatting.xml
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\System.Web.Http.xml
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\System.Web.Http.WebHost.xml
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\System.Web.Razor.xml
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\System.Web.WebPages.xml
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\System.Web.WebPages.Deployment.xml
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\System.Web.WebPages.Razor.xml
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\WebMatrix.Data.xml
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\WebMatrix.WebData.xml
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\bin\BudgetManager.DataLibrary.pdb
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\obj\Debug\BudgetManager.Web.csprojResolveAssemblyReference.cache
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\obj\Debug\BudgetManager.Web.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Web\obj\Debug\BudgetManager.Web.pdb
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\AutoMapper.Net4.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\BudgetManager.Web.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\BudgetManager.Web.pdb
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\Antlr3.Runtime.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\Aspose.Cells.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\AutoMapper.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\BudgetManager.Entities.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\BudgetManager.Helpers.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\BudgetManager.Infrastructure.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\BudgetManager.ReportSchemaValidator.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\BudgetManager.ReportUtility.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\BudgetManager.Repository.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\BudgetManager.Security.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\BudgetManager.SharedAssembly.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\Elmah.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\Elmah.Mvc.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\EntityFramework.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\Forloop.HtmlHelpers.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\Microsoft.Web.Mvc.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\MiniProfiler.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\MiniProfiler.Mvc.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\Newtonsoft.Json.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\Ninject.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\Ninject.Web.Common.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\Ninject.Web.Mvc.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\ReadablePasswordGenerator.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\System.Net.Http.Formatting.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\System.Web.Http.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\System.Web.Http.WebHost.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\System.Web.Mvc.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\System.Web.Optimization.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\System.Web.Providers.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\System.Web.Razor.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\System.Web.WebPages.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\WebActivator.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\WebGrease.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\WebMatrix.Data.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\WebMatrix.WebData.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\BudgetManager.DataLibrary.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\BudgetManager.Entities.pdb
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\BudgetManager.Helpers.pdb
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\BudgetManager.Infrastructure.pdb
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\BudgetManager.ReportSchemaValidator.pdb
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\BudgetManager.ReportUtility.pdb
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\BudgetManager.Repository.pdb
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\BudgetManager.Security.pdb
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\BudgetManager.SharedAssembly.pdb
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\AutoMapper.xml
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\Forloop.HtmlHelpers.xml
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\MiniProfiler.pdb
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\MiniProfiler.xml
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\MiniProfiler.Mvc.pdb
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\Ninject.pdb
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\Ninject.xml
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\Ninject.Web.Common.pdb
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\Ninject.Web.Common.xml
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\Ninject.Web.Mvc.pdb
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\Ninject.Web.Mvc.xml
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\System.Web.Mvc.xml
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\EntityFramework.xml
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\Newtonsoft.Json.xml
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\System.Net.Http.Formatting.xml
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\System.Web.Http.xml
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\System.Web.Http.WebHost.xml
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\System.Web.Razor.xml
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\System.Web.WebPages.xml
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\WebMatrix.Data.xml
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\WebMatrix.WebData.xml
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\bin\BudgetManager.DataLibrary.pdb
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\obj\Debug\BudgetManager.Web.csprojResolveAssemblyReference.cache
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\obj\Debug\BudgetManager.Web.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Web\obj\Debug\BudgetManager.Web.pdb

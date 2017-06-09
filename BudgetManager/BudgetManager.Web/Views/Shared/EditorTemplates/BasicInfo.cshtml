@@ -1,0 +1,190 @@
+﻿@model AccountSettingsViewModel
+<h4 class="header blue bolder smaller">General</h4>
+
+<div class="row-fluid">
+    <div class="span4">
+        <input type="file" />
+    </div>
+
+    <div class="vspace"></div>
+
+    <div class="span8">
+        <div class="control-group">
+            @Html.LabelFor(basicInfo => basicInfo.UserName, new { @class = "control-label" })
+            <div class="controls">
+                @Html.TextBoxFor(basicInfo => basicInfo.UserName, htmlAttributes: new { placeholder = "Username" })
+            </div>
+        </div>
+
+        <div class="control-group">
+            <label class="control-label" for="form-field-first">Name</label>
+            <div class="controls">
+                @Html.TextBoxFor(basicInfo => basicInfo.FirstName, htmlAttributes: new { @class = "input-small" })
+                @Html.TextBoxFor(basicInfo => basicInfo.LastName, htmlAttributes: new { @class = "input-small" })
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr />
+<div class="control-group">
+    <label class="control-label" for="form-field-date">Birth Date</label>
+
+    <div class="controls">
+        <div class="input-append">
+            @Html.TextBoxFor(basicInfo => basicInfo.DateOfBirth, "{0:dd/MM/yyyy}", htmlAttributes: new { @class = "input-small calendar", data_date_format = "dd-mm-yyyy", placeholder = "dd-mm-yyyy" })
+            <span class="add-on date-picker">
+                <i class="icon-calendar"></i>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="control-group">
+    <label class="control-label">Gender</label>
+    @{
+        
+        var Gender = Model.Gender ?? string.Empty;
+        <div class="controls">
+            <div class="space-2"></div>
+            @*@Html.RadioButtonFor(model => model.GenderList, Model.Gender, new { @class = "inline" })*@
+            <label class="inline">
+                <input name="Gender" type="radio" @(Gender.Equals("M") ? "checked" : string.Empty) value="M" />
+                <span class="lbl">Male</span>
+            </label>
+
+            &nbsp; &nbsp; &nbsp;
+																<label class="inline">
+                                                                    <input name="Gender" value="F" type="radio" @(Gender.Equals("F") ? "checked" : string.Empty) />
+                                                                    <span class="lbl">Female</span>
+                                                                </label>
+        </div>
+    }
+</div>
+
+<div class="control-group">
+    <label class="control-label" for="form-field-comment">About me</label>
+
+    <div class="controls">
+        <textarea id="form-field-comment"></textarea>
+    </div>
+</div>
+
+<div class="space"></div>
+<h4 class="header blue bolder smaller">Contact</h4>
+
+<div class="control-group">
+    @Html.LabelFor(basicInfo => basicInfo.Email, new { @class = "control-label" })
+    <div class="controls">
+        <span class="input-icon input-icon-right">
+            @Html.TextBoxFor(basicInfo => basicInfo.Email)
+        </span>
+    </div>
+</div>
+
+<div class="control-group">
+    <label class="control-label" for="form-field-website">Website</label>
+
+    <div class="controls">
+        <span class="input-icon input-icon-right">
+            <input type="url" id="form-field-website" value="http://www.alexdoe.com/" />
+            <i class="icon-globe"></i>
+        </span>
+    </div>
+</div>
+
+<div class="control-group">
+    @Html.LabelFor(basicInfo => basicInfo.Phone, htmlAttributes: new { @class = "control-label", @for = "form-field-website" })
+    <div class="controls">
+        <span class="input-icon input-icon-right">
+            @Html.EditorFor(basicInfo => basicInfo.Phone)
+            <i class="icon-phone icon-flip-horizontal"></i>
+        </span>
+    </div>
+</div>
+
+<div class="control-group">
+    @Html.LabelFor(basicInfo => basicInfo.AddressLine1, htmlAttributes: new { @class = "control-label", @for = "form-field-website" })
+    <div class="controls">
+        <span class="input-icon input-icon-right">
+            @Html.EditorFor(basicInfo => basicInfo.AddressLine1)
+            <i class="icon-envelope icon-flip-horizontal"></i>
+        </span>
+    </div>
+</div>
+
+<div class="control-group">
+    @Html.LabelFor(basicInfo => basicInfo.AddressLine2, htmlAttributes: new { @class = "control-label", @for = "form-field-website" })
+    <div class="controls">
+        <span class="input-icon input-icon-right">
+            @Html.EditorFor(basicInfo => basicInfo.AddressLine2)
+            <i class="icon-envelope icon-flip-horizontal"></i>
+        </span>
+    </div>
+</div>
+<div class="control-group">
+    @Html.LabelFor(basicInfo => basicInfo.City, htmlAttributes: new { @class = "control-label", @for = "form-field-website" })
+    <div class="controls">
+        <span class="input-icon input-icon-right">
+            @Html.EditorFor(basicInfo => basicInfo.City)
+            <i class="icon-envelope icon-flip-horizontal"></i>
+        </span>
+    </div>
+</div>
+<div class="control-group">
+    @Html.LabelFor(basicInfo => basicInfo.PinCode, htmlAttributes: new { @class = "control-label", @for = "form-field-website" })
+    <div class="controls">
+        <span class="input-icon input-icon-right">
+            @Html.EditorFor(basicInfo => basicInfo.PinCode)
+            <i class="icon-envelope icon-flip-horizontal"></i>
+        </span>
+    </div>
+</div>
+<div class="control-group">
+    @Html.LabelFor(basicInfo => basicInfo.Country, htmlAttributes: new { @class = "control-label", @for = "form-field-website" })
+    <div class="controls">
+        <span class="input-icon input-icon-right">
+            @Html.EditorFor(basicInfo => basicInfo.Country)
+            <i class="icon-globe icon-flip-horizontal"></i>
+        </span>
+    </div>
+</div>
+
+
+<div class="space"></div>
+<h4 class="header blue bolder smaller">Social</h4>
+
+<div class="control-group">
+    <label class="control-label" for="form-field-facebook">Facebook</label>
+
+    <div class="controls">
+        <span class="input-icon">
+            <input type="text" value="facebook_alexdoe" id="form-field-facebook" />
+            <i class="icon-facebook"></i>
+        </span>
+    </div>
+</div>
+
+<div class="control-group">
+    <label class="control-label" for="form-field-twitter">Twitter</label>
+
+    <div class="controls">
+        <span class="input-icon">
+            <input type="text" value="twitter_alexdoe" id="form-field-twitter" />
+            <i class="icon-twitter"></i>
+        </span>
+    </div>
+</div>
+
+<div class="control-group">
+    <label class="control-label" for="form-field-gplus">Google+</label>
+
+    <div class="controls">
+        <span class="input-icon">
+            <input type="text" value="google_alexdoe" id="form-field-gplus" />
+            <i class="icon-google-plus"></i>
+        </span>
+    </div>
+</div>
+@Html.HiddenFor(model=>model.UserName)
+@Html.HiddenFor(model=>model.CompanyId)

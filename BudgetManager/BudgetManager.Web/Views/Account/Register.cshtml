@@ -1,0 +1,101 @@
+﻿@model RegisterViewModel
+@{
+    ViewBag.Title = "Register with us";
+}
+
+@section headerLinks
+                {
+    <li>@Html.ActionLink("Home", "Home", "Account")</li>
+    <li>@Html.ActionLink("Log In", "Login", "Account")</li>
+}
+
+<div class="container">
+    <div class="row">
+        <p class="text-danger">
+            @Html.ValidationSummary(true)
+            @Html.Partial("_validationSummary")
+        </p>
+        <div class="col-sm-12 col-md-7 pull-left">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div class="alert alert-info">
+                        User Registration
+                    </div>
+                    @using (Html.BeginForm("Register", "Account", FormMethod.Post, htmlAttributes: new { id = "form1", @class = "form-vertical logInForm", role = "form", autocomplete = "off" }))
+                    {
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.userName, new { @for = "userid", @class = "col-sm-3 control-label text-left" })
+                            <div class="col-sm-9">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+                                    @Html.TextBoxFor(m => m.userName, new { @class = "form-control", id = "userid", placeholder = "Enter your user name" })
+                                </div>
+                                <p class="text-danger">
+                                    @Html.ValidationMessageFor(m => m.userName)
+                                </p>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.displayName, new { @for = "displayName", @class = "col-sm-3 control-label text-left" })
+                            <div class="col-sm-9">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+                                    @Html.TextBoxFor(m => m.displayName, new { @class = "form-control", id = "displayName", placeholder = "Enter the name to display in the app." })
+                                </div>
+                                <p class="text-danger">
+                                    @Html.ValidationMessageFor(m => m.displayName)
+                                </p>
+                            </div>
+                        </div>                        
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.password, new { @for = "password", @class = "col-sm-3 control-label" })
+                            <div class="col-sm-9">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
+                                    @Html.PasswordFor(m => m.password, new { @class = "form-control", id = "password", placeholder = "Enter your password", autocomplete = "off" })
+                                </div>
+                                <p class="text-danger">
+                                    @Html.ValidationMessageFor(m => m.password)
+                                </p>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.confirmPassword, new { @for = "confirmpassword", @class = "col-sm-3 control-label" })
+                            <div class="col-sm-9">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
+                                    @Html.PasswordFor(m => m.confirmPassword, new { @class = "form-control", id = "confirmpassword", placeholder = "Confirm the password", autocomplete = "off" })
+                                </div>
+                                <p class="text-danger">
+                                    @Html.ValidationMessageFor(m => m.confirmPassword)
+                                </p>
+                            </div>
+                        </div>         
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.email, new { @for = "email", @class = "col-sm-3 control-label" })
+                            <div class="col-sm-9">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
+                                    @Html.TextBoxFor(m => m.email, new { @class = "form-control", id = "email", placeholder = "Enter your E-mail ID" })
+                                </div>
+                                <p class="text-danger">
+                                    @Html.ValidationMessageFor(m => m.email)
+                                </p>
+                            </div>
+                        </div>   
+                        <div class="form-group">
+                            <div class="col-sm-offset-4 col-sm-3">
+                                <button type="submit" class="btn btn-primary">Register</button>
+                            </div>
+                        </div>   
+                        <div class="form-group">
+                            <div class="col-sm-offset-4 col-sm-3">
+                                &nbsp;
+                            </div>
+                        </div>                        
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

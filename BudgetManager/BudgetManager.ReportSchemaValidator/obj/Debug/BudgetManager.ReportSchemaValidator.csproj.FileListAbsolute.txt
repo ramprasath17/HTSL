@@ -1,0 +1,18 @@
+D:\Hameed\Project\BudgetManager\BudgetManager.ReportSchemaValidator\bin\Debug\BudgetManager.ReportSchemaValidator.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.ReportSchemaValidator\bin\Debug\BudgetManager.ReportSchemaValidator.pdb
+D:\Hameed\Project\BudgetManager\BudgetManager.ReportSchemaValidator\obj\Debug\BudgetManager.ReportSchemaValidator.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.ReportSchemaValidator\obj\Debug\BudgetManager.ReportSchemaValidator.pdb
+E:\FromPendrive\Project\BudgetManager\BudgetManager.ReportSchemaValidator\bin\Debug\BudgetManager.ReportSchemaValidator.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.ReportSchemaValidator\bin\Debug\BudgetManager.ReportSchemaValidator.pdb
+E:\FromPendrive\Project\BudgetManager\BudgetManager.ReportSchemaValidator\obj\Debug\BudgetManager.ReportSchemaValidator.csprojResolveAssemblyReference.cache
+E:\FromPendrive\Project\BudgetManager\BudgetManager.ReportSchemaValidator\obj\Debug\BudgetManager.ReportSchemaValidator.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.ReportSchemaValidator\obj\Debug\BudgetManager.ReportSchemaValidator.pdb
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.ReportSchemaValidator\bin\Debug\BudgetManager.ReportSchemaValidator.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.ReportSchemaValidator\bin\Debug\BudgetManager.ReportSchemaValidator.pdb
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.ReportSchemaValidator\obj\Debug\BudgetManager.ReportSchemaValidator.csprojResolveAssemblyReference.cache
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.ReportSchemaValidator\obj\Debug\BudgetManager.ReportSchemaValidator.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.ReportSchemaValidator\obj\Debug\BudgetManager.ReportSchemaValidator.pdb
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.ReportSchemaValidator\bin\Debug\BudgetManager.ReportSchemaValidator.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.ReportSchemaValidator\bin\Debug\BudgetManager.ReportSchemaValidator.pdb
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.ReportSchemaValidator\obj\Debug\BudgetManager.ReportSchemaValidator.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.ReportSchemaValidator\obj\Debug\BudgetManager.ReportSchemaValidator.pdb

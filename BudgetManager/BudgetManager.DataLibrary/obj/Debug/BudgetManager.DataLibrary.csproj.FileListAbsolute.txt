@@ -1,0 +1,40 @@
+D:\Hameed\Project\BudgetManager\BudgetManager.DataLibrary\bin\Debug\BudgetManager.DataLibrary.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.DataLibrary\bin\Debug\BudgetManager.DataLibrary.pdb
+D:\Hameed\Project\BudgetManager\BudgetManager.DataLibrary\bin\Debug\Elmah.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.DataLibrary\bin\Debug\Elmah.Mvc.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.DataLibrary\bin\Debug\MiniProfiler.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.DataLibrary\bin\Debug\MiniProfiler.pdb
+D:\Hameed\Project\BudgetManager\BudgetManager.DataLibrary\bin\Debug\MiniProfiler.xml
+D:\Hameed\Project\BudgetManager\BudgetManager.DataLibrary\obj\Debug\BudgetManager.DataLibrary.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.DataLibrary\obj\Debug\BudgetManager.DataLibrary.pdb
+D:\Hameed\Project\BudgetManager\BudgetManager.DataLibrary\obj\Debug\BudgetManager.DataLibrary.csprojResolveAssemblyReference.cache
+E:\FromPendrive\Project\BudgetManager\BudgetManager.DataLibrary\bin\Debug\BudgetManager.DataLibrary.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.DataLibrary\bin\Debug\BudgetManager.DataLibrary.pdb
+E:\FromPendrive\Project\BudgetManager\BudgetManager.DataLibrary\bin\Debug\Elmah.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.DataLibrary\bin\Debug\Elmah.Mvc.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.DataLibrary\bin\Debug\MiniProfiler.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.DataLibrary\bin\Debug\MiniProfiler.pdb
+E:\FromPendrive\Project\BudgetManager\BudgetManager.DataLibrary\bin\Debug\MiniProfiler.xml
+E:\FromPendrive\Project\BudgetManager\BudgetManager.DataLibrary\obj\Debug\BudgetManager.DataLibrary.csprojResolveAssemblyReference.cache
+E:\FromPendrive\Project\BudgetManager\BudgetManager.DataLibrary\obj\Debug\BudgetManager.DataLibrary.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.DataLibrary\obj\Debug\BudgetManager.DataLibrary.pdb
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.DataLibrary\bin\Debug\BudgetManager.DataLibrary.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.DataLibrary\bin\Debug\BudgetManager.DataLibrary.pdb
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.DataLibrary\bin\Debug\Elmah.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.DataLibrary\bin\Debug\Elmah.Mvc.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.DataLibrary\bin\Debug\MiniProfiler.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.DataLibrary\bin\Debug\MiniProfiler.pdb
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.DataLibrary\bin\Debug\MiniProfiler.xml
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.DataLibrary\obj\Debug\BudgetManager.DataLibrary.csprojResolveAssemblyReference.cache
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.DataLibrary\obj\Debug\BudgetManager.DataLibrary.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.DataLibrary\obj\Debug\BudgetManager.DataLibrary.pdb
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.DataLibrary\bin\Debug\BudgetManager.DataLibrary.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.DataLibrary\bin\Debug\BudgetManager.DataLibrary.pdb
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.DataLibrary\bin\Debug\Elmah.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.DataLibrary\bin\Debug\Elmah.Mvc.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.DataLibrary\bin\Debug\MiniProfiler.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.DataLibrary\bin\Debug\MiniProfiler.pdb
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.DataLibrary\bin\Debug\MiniProfiler.xml
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.DataLibrary\obj\Debug\BudgetManager.DataLibrary.csprojResolveAssemblyReference.cache
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.DataLibrary\obj\Debug\BudgetManager.DataLibrary.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.DataLibrary\obj\Debug\BudgetManager.DataLibrary.pdb

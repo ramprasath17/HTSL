@@ -1,0 +1,21 @@
+﻿@model BudgetCategory
+<div class="row-fluid">
+    <div class="widget-box">
+        <div class="widget-header widget-header-small">
+            <h5 class="lighter">Create a Budget Category</h5>
+        </div>
+
+        <div class="widget-body">
+            <div class="widget-main">
+                <form class="form-search">
+                    @Html.TextBoxFor(category => category.CategoryName, htmlAttributes: new { placeholder = "Enter Category Name", @class = "input-large" })
+                    @Html.ValidationMessageFor(category => category.CategoryName)
+                    <button class="btn btn-purple btn-small" id="CreateABudget" name="CreateABudget" type="submit">
+                        Create														
+                            <i class="icon-save icon-on-right bigger-110"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,63 @@
+﻿@model List<UserSearchResultViewModel>
+<div class="row-fluid">
+    <div class="span12">
+        <div class="table-header">
+            <h2>Invite friends</h2>
+        </div>
+        <div role="grid" class="dataTables_wrapper" id="sample-table-1_wrapper">
+            <table class="table table-striped table-bordered table-hover" id="FriendInvitationUserList">
+                <thead>
+                    <tr role="row">
+                        <th class="center sorting_disabled hidden" role="columnheader" rowspan="1" colspan="1" style="width: 57px;" aria-label="">
+                            <label>
+                                <input type="checkbox">
+                                <span class="lbl"></span>
+                            </label>
+                        </th>
+                        <th role="columnheader">User Name</th>
+                        <th role="columnheader">Company Name</th>
+                        <th role="columnheader">Is Active</th>
+                        <th role="columnheader">View Details</th>
+                        <th role="columnheader">Invite</th>
+                        <th class="hidden"></th>
+                    </tr>
+                </thead>
+
+                <tbody role="alert" aria-live="polite" aria-relevant="all">
+                    @foreach (UserSearchResultViewModel userList in Model)
+                    {                        
+                        <tr data-user="@userList.UserId">
+                            <td class="hidden"></td>
+                            <td data-edit="true">
+                                <strong>
+                                    @Html.DisplayFor(m => userList.UserName)
+                                </strong>
+                            </td>
+                            <td data-edit="true" data-control-type="date">@Html.DisplayFor(m => userList.CompanyName)
+                            </td>
+                            <td data-edit="true" data-control-type="date">
+                                @Html.DisplayFor(m => userList.IsActive, "SlideableCheckBox")
+                            </td>
+                            <td data-edit="true" data-control-type="text">
+                                <a href="javascript:void(0);" class="viewdetails">view details</a>
+                            </td>
+                            <td data-edit="true" data-control-type="text" style="text-align: center;">
+                                @Html.DisplayFor(inviteStatus => userList, "InviteStatus")
+                            </td>
+                            <td class="hidden"></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!--/span-->
+</div>
+
+<script type="text/javascript">
+
+    $(function () {
+        applyGridProperties("#FriendInvitationUserList");
+    });
+    $('[data-rel=popover]').popover({ container: 'body' });
+</script>

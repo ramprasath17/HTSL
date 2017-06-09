@@ -1,0 +1,66 @@
+﻿@using BudgetManager.SharedAssembly;
+@using BudgetManager.Helpers.HtmlHelperExxtensions;
+@model  BudgetManager.Web.Areas.UserPermission.Models.UserPermissionsViewModel
+<div class="row-fluid userPermissionsContent">
+    <h3 class="header smaller lighter blue">View Users</h3>
+    <div class="table-header">
+        Permissions set for the user for each screen
+    </div>
+    <div role="grid" class="dataTables_wrapper" id="user-permission_wrapper">
+        <table id="sample-table-2" class="table table-striped table-bordered table-hover" aria-describedby="sample-table-2_info">
+            <thead>
+                <tr role="row">
+                    <th role="columnheader">Screen Name</th>
+                    <th role="columnheader" class="sorting_disabled">Read</th>
+                    <th role="columnheader" class="sorting_disabled">Write</th>
+                    <th role="columnheader" class="sorting_disabled">Delete</th>
+                    <th role="columnheader" class="hidden-phone hidden-480">Link Order</th>                    
+                    <th role="columnheader" class="sorting_disabled hidden-phone hidden-480">Link Icon</th>
+                    <th class="hidden"></th>
+                </tr>
+            </thead>
+
+            <tbody role="alert" aria-live="polite" aria-relevant="all">
+                @foreach (var screenData in Model.ScreenAndPermissions)
+                {              
+                    <tr>
+                        <td>@screenData.ScreeenName</td>
+                        <td>
+                            <input name="switch-field-1" class="ace-switch ace-switch-6 userPermissionCheckBox" type="checkbox" data-screen-id="@screenData.ScreeenId" data-permission-type="R" value="@screenData.IsRead" @screenData.Isreadable  @Model.DisableRowEdit />
+                            <span class="lbl"></span>
+                        </td>
+                        <td>
+                            <input name="switch-field-1" class="ace-switch ace-switch-6 userPermissionCheckBox" type="checkbox" data-screen-id="@screenData.ScreeenId" data-permission-type="W" value="@screenData.IsWrite" @screenData.IsWritable @Model.DisableRowEdit />
+                            <span class="lbl"></span>
+                        </td>
+                        <td>
+                            <input name="switch-field-1" class="ace-switch ace-switch-6 userPermissionCheckBox" type="checkbox" data-screen-id="@screenData.ScreeenId" data-permission-type="D" value="@screenData.IsDelete" @screenData.IsDeletable @Model.DisableRowEdit/>
+                            <span class="lbl"></span>
+                        </td>
+                        <td class="hidden-phone hidden-480">
+                            @Html.TextBoxWithPermissionFor(m => screenData.LinkOrder, new { placeholder = "Link order", data_screen_id = screenData.ScreeenId, @class = "linkOrder input-small", data_action_type = "L" })
+                        </td>                        
+                        <td class="hidden-phone hidden-480">
+                            @if (Model.HasEditAccess)
+                            {
+                                @Html.DropDownList("a", screenData.SelectedLinkIconInSelectList, htmlAttributes: new { id = "iconList_" + screenData.ScreeenId, data_screen_id = screenData.ScreeenId, @class = "iconList chzn-select", data_action_type = "I" })
+                            }
+                            else
+                            {
+                                <i class='@screenData.SelectedIcon[1]'></i>
+                                @screenData.SelectedIcon[0]
+                            }
+                            @*@Html.DropDownListWithPermission("iconList", screenData.SelectedLinkIconInSelectList, @screenData.SelectedIcon[0], screenData.SelectedIcon[1], htmlAttributes: new { id = "iconList_" + screenData.ScreeenId, data_screen_id = screenData.ScreeenId, @class = "iconList", data_action_type = "I" })*@
+                        </td>
+                        <td class="td-actions hidden"></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+<script>
+    if (typeof $ != "undefined") {
+        $(".chzn-select").chosen();
+    }
+</script>

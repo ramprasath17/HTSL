@@ -1,0 +1,19 @@
+D:\Hameed\Project\BudgetManager\BudgetManager.SharedAssembly\bin\Debug\BudgetManager.SharedAssembly.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.SharedAssembly\bin\Debug\BudgetManager.SharedAssembly.pdb
+D:\Hameed\Project\BudgetManager\BudgetManager.SharedAssembly\obj\Debug\BudgetManager.SharedAssembly.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.SharedAssembly\obj\Debug\BudgetManager.SharedAssembly.pdb
+D:\Hameed\Project\BudgetManager\BudgetManager.SharedAssembly\obj\Debug\BudgetManager.SharedAssembly.csprojResolveAssemblyReference.cache
+E:\FromPendrive\Project\BudgetManager\BudgetManager.SharedAssembly\bin\Debug\BudgetManager.SharedAssembly.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.SharedAssembly\bin\Debug\BudgetManager.SharedAssembly.pdb
+E:\FromPendrive\Project\BudgetManager\BudgetManager.SharedAssembly\obj\Debug\BudgetManager.SharedAssembly.csprojResolveAssemblyReference.cache
+E:\FromPendrive\Project\BudgetManager\BudgetManager.SharedAssembly\obj\Debug\BudgetManager.SharedAssembly.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.SharedAssembly\obj\Debug\BudgetManager.SharedAssembly.pdb
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.SharedAssembly\bin\Debug\BudgetManager.SharedAssembly.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.SharedAssembly\bin\Debug\BudgetManager.SharedAssembly.pdb
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.SharedAssembly\obj\Debug\BudgetManager.SharedAssembly.csprojResolveAssemblyReference.cache
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.SharedAssembly\obj\Debug\BudgetManager.SharedAssembly.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.SharedAssembly\obj\Debug\BudgetManager.SharedAssembly.pdb
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.SharedAssembly\bin\Debug\BudgetManager.SharedAssembly.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.SharedAssembly\bin\Debug\BudgetManager.SharedAssembly.pdb
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.SharedAssembly\obj\Debug\BudgetManager.SharedAssembly.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.SharedAssembly\obj\Debug\BudgetManager.SharedAssembly.pdb

@@ -1,0 +1,5 @@
+D:\Hameed\Project\BudgetManager\BudgetManager.SharedAssembly\bin\Release\BudgetManager.SharedAssembly.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.SharedAssembly\bin\Release\BudgetManager.SharedAssembly.pdb
+D:\Hameed\Project\BudgetManager\BudgetManager.SharedAssembly\obj\Release\BudgetManager.SharedAssembly.csprojResolveAssemblyReference.cache
+D:\Hameed\Project\BudgetManager\BudgetManager.SharedAssembly\obj\Release\BudgetManager.SharedAssembly.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.SharedAssembly\obj\Release\BudgetManager.SharedAssembly.pdb

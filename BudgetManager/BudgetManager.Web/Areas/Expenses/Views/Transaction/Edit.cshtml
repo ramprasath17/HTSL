@@ -1,0 +1,117 @@
+﻿@model ManageTransactionViewModel
+@{
+    ViewBag.Title = "Edit";
+}
+
+<div class="row-fluid">
+    <div class="span12">
+        <div class="table-header">
+            <h2>Edit transaction</h2>
+        </div>
+        <div role="grid" class="dataTables_wrapper" id="sample-table-1_wrapper">
+            <table class="table table-striped table-bordered table-hover" id="TransactionManagementTable">
+                <thead>
+                    <tr role="row">
+                        <th class="center sorting_disabled" role="columnheader" rowspan="1" colspan="1" style="width: 57px;" aria-label="">
+                            <label>
+                                <input type="checkbox">
+                                <span class="lbl"></span>
+                            </label>
+                        </th>
+                        <th role="columnheader">Description</th>
+                        <th role="columnheader">Amount Returned</th>
+                        <th role="columnheader">Returned On</th>
+                        <th role="columnheader">Expense</th>
+                        <th role="columnheader">Returned by</th>
+                        <th role="columnheader">Received by</th>                        
+                        <th></th>
+                    </tr>
+                </thead>
+
+                <tbody role="alert" aria-live="polite" aria-relevant="all">
+                    @foreach (TransactionViewModel transactionDetails in Model.TransactionData)
+                    {
+                        <tr data-record-id="@transactionDetails.TransactionId" data-component="T">
+                            <td class="center sorting_1">
+                                <label>
+                                    <input type="checkbox">
+                                    <span class="lbl"></span>
+                                </label>
+                            </td>
+                            <td data-editable="true" data-column="Description">@transactionDetails.Description</td>
+                            <td data-editable="true" data-column="AmountReturned" data-control-type="currency" data-type="numeric">
+                                <i class="icon-inr"></i>
+                                @Html.DisplayFor(m => transactionDetails.AmountReturned)
+                            </td>
+                            <td data-editable="true" data-column="AmountReturnedOn" data-control-type="date" data-type="date">
+                                @Html.DisplayFor(m => transactionDetails.AmountReturnedOn)
+                            </td>
+                            <td data-editable="true" data-column="SelectedExpenseName" data-control-type="select" data-lookup="Expenses">
+                                @Html.DisplayFor(m => transactionDetails.SelectedExpenseName)
+                            </td>
+                            <td data-editable="false" data-column="AmountReturnedBy" data-control-type="select" data-lookup="Users">
+                                @Html.DisplayFor(m => transactionDetails.AmountReturnedBy)
+                            </td>
+                            <td class="hidden-480" data-editable="false" data-column="AmountReceivedBy" data-control-type="select" data-lookup="Users">
+                                @Html.DisplayFor(m => transactionDetails.AmountReceivedBy)
+                            </td>
+                            <td>
+                                @{                                
+                        Html.RenderPartial("_ActionControlBlock");
+                                }
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!--/span-->
+</div>
+
+@{
+    string tableId = "Transaction"; 
+}
+@Html.Partial("_EditModalPopUp", tableId)
+
+
+<!--PAGE CONTENT ENDS-->
+<link href="~/Content/jquery-ui-1.10.4.custom.css" rel="stylesheet" />
+@section BootstrapScripts{
+
+    <script type="text/javascript">
+        $(".chzn-select").chosen();
+
+        $(function () {
+            $(document).on("focus", ".calendar", function () {
+                $(this).datepicker({ dateFormat: "dd M yy" }); // Date Format - 25 Jun 2014
+            });
+        });
+
+        $(function () {
+            applyGridProperties("#TransactionManagementTable");
+        });
+
+        $("button[data-dismiss=modal]").click(function () {
+            $("#@tableId-edit-table").addClass("hide");
+        });
+
+        $("a[title=Delete]").deleteSelectedRecord({
+            actionUrl: "@Url.Action("DeleteSelectedItem", "ComponentAction", new { area = "" })"
+        });
+
+        $("a[title=Edit]").updateSelectedRecord({
+            componentType: 'T',
+            actionUrl: "@Url.Action("UpdateSelectedComponentRecord", "ComponentAction", new { area = "" })",
+            tableId: "@tableId",
+            title: "Edit selected transaction",
+            currencyType: "inr",
+            onSuccess: function () {
+                $(".update-info").show();
+                $(".update-info").fadeOut(4000);
+            },
+            lookupData: '@Html.Raw(Model.SerializedLookUp)'
+        });
+
+    </script>
+}

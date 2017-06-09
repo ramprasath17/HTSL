@@ -1,0 +1,36 @@
+D:\Hameed\Project\BudgetManager\BudgetManager.Helpers\bin\Debug\BudgetManager.Helpers.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Helpers\bin\Debug\BudgetManager.Helpers.pdb
+D:\Hameed\Project\BudgetManager\BudgetManager.Helpers\bin\Debug\BudgetManager.SharedAssembly.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Helpers\bin\Debug\BudgetManager.SharedAssembly.pdb
+D:\Hameed\Project\BudgetManager\BudgetManager.Helpers\obj\Debug\BudgetManager.Helpers.csprojResolveAssemblyReference.cache
+D:\Hameed\Project\BudgetManager\BudgetManager.Helpers\obj\Debug\BudgetManager.Helpers.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Helpers\obj\Debug\BudgetManager.Helpers.pdb
+D:\Hameed\Project\BudgetManager\BudgetManager.Helpers\bin\Debug\BudgetManager.Entities.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Helpers\bin\Debug\BudgetManager.Entities.pdb
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Helpers\bin\Debug\BudgetManager.Helpers.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Helpers\bin\Debug\BudgetManager.Helpers.pdb
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Helpers\bin\Debug\BudgetManager.Entities.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Helpers\bin\Debug\BudgetManager.SharedAssembly.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Helpers\bin\Debug\BudgetManager.Entities.pdb
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Helpers\bin\Debug\BudgetManager.SharedAssembly.pdb
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Helpers\obj\Debug\BudgetManager.Helpers.csprojResolveAssemblyReference.cache
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Helpers\obj\Debug\BudgetManager.Helpers.dll
+E:\FromPendrive\Project\BudgetManager\BudgetManager.Helpers\obj\Debug\BudgetManager.Helpers.pdb
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Helpers\bin\Debug\BudgetManager.Helpers.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Helpers\bin\Debug\BudgetManager.Helpers.pdb
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Helpers\bin\Debug\BudgetManager.Entities.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Helpers\bin\Debug\BudgetManager.SharedAssembly.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Helpers\bin\Debug\BudgetManager.Entities.pdb
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Helpers\bin\Debug\BudgetManager.SharedAssembly.pdb
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Helpers\obj\Debug\BudgetManager.Helpers.csprojResolveAssemblyReference.cache
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Helpers\obj\Debug\BudgetManager.Helpers.dll
+D:\E DRIVE BACKUP\FromPendrive\Project\BudgetManager\BudgetManager.Helpers\obj\Debug\BudgetManager.Helpers.pdb
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Helpers\bin\Debug\BudgetManager.Helpers.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Helpers\bin\Debug\BudgetManager.Helpers.pdb
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Helpers\bin\Debug\BudgetManager.Entities.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Helpers\bin\Debug\BudgetManager.SharedAssembly.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Helpers\bin\Debug\BudgetManager.Entities.pdb
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Helpers\bin\Debug\BudgetManager.SharedAssembly.pdb
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Helpers\obj\Debug\BudgetManager.Helpers.csprojResolveAssemblyReference.cache
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Helpers\obj\Debug\BudgetManager.Helpers.dll
+C:\Users\ELCOT-Lenovo\Desktop\Ram\BudgetManager\BudgetManager.Helpers\obj\Debug\BudgetManager.Helpers.pdb

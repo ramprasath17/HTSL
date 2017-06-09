@@ -1,0 +1,50 @@
+﻿@model IEnumerable<CalculatedExpenseViewModel>
+@{
+    ViewBag.Title = "Overall";
+}
+
+
+<div class="row-fluid">
+    <h3 class="header smaller lighter blue">Overall expenses</h3>
+    <div class="row-fluid">
+        <div class="table-header">
+            <span>You can view and export the overall expense data.</span>
+            <span class="pull-right marginRight10px">
+                <span class="badge badge-success"><i class="icon-file-alt"></i>&nbsp;@Html.ActionLink("Excel", "Download", routeValues: new { fileType = "Excel" }, htmlAttributes: new { @class = "whiteLink" })</span>
+                <span class="badge badge-warning"><i class="icon-file-alt"></i>&nbsp;@Html.ActionLink("Pdf", "Download", routeValues: new { fileType = "Pdf" }, htmlAttributes: new { @class = "whiteLink" })</span>
+            </span>
+        </div>
+
+        @using (Ajax.BeginForm("", ajaxOptions: new AjaxOptions
+            {
+                HttpMethod = "POST",
+                UpdateTargetId = "overall-expense",                
+            }))
+            {
+                   <div class="row-fluid">
+                                        
+                   </div>
+            }
+        <div role="grid" class="dataTables_wrapper" id="overall-expense">
+            @{Html.RenderPartial("_OverallExpenses");}
+        </div>
+    </div>
+    <!--/span-->
+</div>
+
+@section BootstrapScripts{
+
+    <script type="text/javascript">
+
+        $(function () {
+            applyGridProperties("#OverAllExpenseTable");
+        });
+
+        $(".notify-expense").click(function () {
+            var expenseId = $(this).data("expense-id");
+            var toUser = $(this).data("send-to");
+            var fromUser = $(this).data("send-from");
+
+        });
+    </script>
+}

@@ -1,0 +1,12 @@
+D:\Hameed\Project\BudgetManager\BudgetManager.ReportUtility\bin\Release\BudgetManager.ReportUtility.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.ReportUtility\bin\Release\BudgetManager.ReportUtility.pdb
+D:\Hameed\Project\BudgetManager\BudgetManager.ReportUtility\bin\Release\Aspose.Cells.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.ReportUtility\bin\Release\BudgetManager.Entities.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.ReportUtility\bin\Release\BudgetManager.Helpers.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.ReportUtility\bin\Release\BudgetManager.SharedAssembly.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.ReportUtility\bin\Release\BudgetManager.Entities.pdb
+D:\Hameed\Project\BudgetManager\BudgetManager.ReportUtility\bin\Release\BudgetManager.Helpers.pdb
+D:\Hameed\Project\BudgetManager\BudgetManager.ReportUtility\bin\Release\BudgetManager.SharedAssembly.pdb
+D:\Hameed\Project\BudgetManager\BudgetManager.ReportUtility\obj\Release\BudgetManager.ReportUtility.csprojResolveAssemblyReference.cache
+D:\Hameed\Project\BudgetManager\BudgetManager.ReportUtility\obj\Release\BudgetManager.ReportUtility.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.ReportUtility\obj\Release\BudgetManager.ReportUtility.pdb

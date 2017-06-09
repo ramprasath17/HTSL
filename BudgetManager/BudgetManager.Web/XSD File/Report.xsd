@@ -1,0 +1,131 @@
+
+
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ReportDefinition">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="ReportData">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="ReportName"/>
+              <xs:element type="xs:string" name="ReportDescription"/>
+              <xs:element name="ReportColumns">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Column" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="DataField"/>
+                          <xs:element type="xs:string" name="TitleField"/>
+                          <xs:element type="xs:byte" name="Order">
+                            <xs:annotation>
+                              <xs:documentation>Position of column  Position of column</xs:documentation>
+                            </xs:annotation>
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attribute type="xs:byte" name="id" use="optional"/>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="Excluded">
+                      <xs:annotation>
+                        <xs:documentation>Fields to exclude</xs:documentation>
+                      </xs:annotation>
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="Field" maxOccurs="unbounded" minOccurs="0"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="ShowHeader"/>
+              <xs:element type="xs:string" name="ShowDescription"/>
+            </xs:sequence>
+            <xs:attribute type="xs:byte" name="id"/>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ReportStyle">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Header">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="title"/>
+                    <xs:element name="RowPosition">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:byte" name="Start"/>
+                          <xs:element type="xs:byte" name="End"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="ColumnPosition">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="Start"/>
+                          <xs:element type="xs:string" name="End"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="MergeCells"/>
+                    <xs:element name="Font">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:byte" name="Size"/>
+                          <xs:element type="xs:string" name="Name"/>
+                          <xs:element type="xs:string" name="Color"/>
+                          <xs:element type="xs:string" name="IsBold"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="TextAlign"/>
+                    <xs:element type="xs:string" name="ForegroundColor"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Description">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="content"/>
+                    <xs:element name="RowPosition">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:byte" name="Start"/>
+                          <xs:element type="xs:byte" name="End"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="ColumnPosition">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="Start"/>
+                          <xs:element type="xs:string" name="End"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="MergeCells"/>
+                    <xs:element name="Font">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:byte" name="Size"/>
+                          <xs:element type="xs:string" name="Name"/>
+                          <xs:element type="xs:string" name="Color"/>
+                          <xs:element type="xs:string" name="IsBold"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="WrapText"/>
+                    <xs:element type="xs:string" name="TextAlign"/>
+                    <xs:element type="xs:string" name="ForegroundColor"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+

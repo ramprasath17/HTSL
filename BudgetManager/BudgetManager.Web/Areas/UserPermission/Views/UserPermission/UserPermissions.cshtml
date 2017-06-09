@@ -1,0 +1,104 @@
+﻿@model  BudgetManager.Web.Areas.UserPermission.Models.UserPermissionsViewModel
+@{
+    ViewBag.Title = "UserPermissions";
+}
+
+<h2>User Permissions</h2>
+@*<link href="~/Content/AdminTheme/css/chosen.css" rel="stylesheet" />*@
+<div class="alert alert-info">
+    <button data-dismiss="alert" class="close" type="button">
+        <i class="icon-remove"></i>
+    </button>
+    <strong>Note!</strong>
+    @BudgetManager.Entities.Messages.UserpermissionSaveNote
+    <br>
+</div>
+<div class="">
+    Select User:
+    @Html.DropDownList("userList", Model.ApplicationUsersSelectList, htmlAttributes: new { id = "userList", @class = "chzn-select", data_placeholder = "Choose a User..." })
+</div>
+<div class="row-fluid">
+    <div id="permissionTable">
+        @Html.Partial("_UserPermissions")
+    </div>
+    <div data-percent="Loading permissions for the selected user... Please wait till it completes." class="progress progress-success active progress-striped hidden">
+        <div style="width: 100%;" class="bar"></div>
+    </div>
+</div>
+
+@section BootstrapScripts{
+    @Scripts.Render("~/LogInBundle/Scripts/js")
+    <script type="text/javascript">
+        $(function () {
+            applyGridProperties("#sample-table-2");
+        });
+
+        $(".chzn-select").chosen();
+        $(function () {
+
+            $('[data-rel="tooltip"]').tooltip({ placement: tooltip_placement });
+            function tooltip_placement(context, source) {
+                var $source = $(source);
+                var $parent = $source.closest('table')
+                var off1 = $parent.offset();
+                var w1 = $parent.width();
+
+                var off2 = $source.offset();
+                var w2 = $source.width();
+
+                if (parseInt(off2.left) < parseInt(off1.left) + parseInt(w1 / 2)) return 'right';
+                return 'left';
+            }
+        });
+
+        $("#userList").on("change", function () {
+            $(".userPermissionsContent").hide();
+            $(".progress").removeClass("hidden");
+            var sesId = $('#userList :selected').val();
+            $.get('@Url.Action("GetPermissionsForSelectedUser", "UserPermission")' + "?sesId=" + sesId, function (data) {
+                $('#permissionTable').html(data);
+                $(".progress").addClass("hidden");
+                applyGridProperties("#sample-table-2");
+            });
+        });
+
+        //Binding the event like below as the permission table is created dynamically on ajax call
+        $(document).on("click", ".userPermissionCheckBox", function () {
+            var permissionType = "permissionType:'" + $(this).attr("data-permission-type") + "'";
+            var isChecked = $(this).attr("checked");
+            var screenId = "screenId:" + $(this).attr("data-screen-id");
+            var sessionId = "sesId:'" + $('#userList :selected').val() + "'";
+            if (isChecked == null || isChecked == "undefined") {
+                isChecked = 1;
+                $(this).attr("checked", "checked");
+            }
+            else {
+                isChecked = 0;
+                $(this).removeAttr("checked");
+            }
+
+            isChecked = "isChecked:" + isChecked;
+
+            var userPermissions = "{" + screenId + "," + permissionType + "," + isChecked + "," + sessionId + "}";
+            var actionUrl = "@Url.Action("UpdateScreenPermission", "UserPermission")";
+            doAjaxAction(actionUrl, userPermissions);
+        });
+
+        $(document).on("change", ".iconList", function () {
+            var selectItemId = "#" + $(this).attr("id");
+            var iconId = $(selectItemId + ' :selected').val();
+            updateScreenData(iconId, $(this), "@Url.Action("UpdateScreenData", "UserPermission")");
+        });
+
+        $(document).on("blur", ".linkOrder", function () {
+            var linkOrder = $(this).val();
+            if (isNaN(linkOrder)) {
+                alert("Enter a valid number");
+            }
+            else {
+                updateScreenData(linkOrder, $(this), "@Url.Action("UpdateScreenData", "UserPermission")");
+            }
+        });
+    </script>
+}
+<link href="~/Content/Custom Styles/AdminCSS/chosen.css" rel="stylesheet" />

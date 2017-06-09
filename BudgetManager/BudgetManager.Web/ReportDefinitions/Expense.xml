@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ReportDefinition>
+  <ReportData id="1">
+    <ReportName>Overall Expenses</ReportName>
+    <ReportDescription>This is a description.</ReportDescription>
+    <ReportColumns>
+      <Column id="1">
+        <DataField>SpentOn</DataField>
+        <TitleField>Spent On</TitleField>
+        <!-- Position of column -->
+        <Order>1</Order>
+      </Column>
+      <Column id="2">
+        <DataField>UserName</DataField>
+        <TitleField>User included</TitleField>
+        <!-- Position of column -->
+        <Order>2</Order>
+      </Column>
+      <Column>
+        <DataField>SpentAmount</DataField>
+        <TitleField>Amount spent</TitleField>
+        <Order>3</Order>
+      </Column>
+      <Column>
+        <DataField>AmountInReturn</DataField>
+        <TitleField>Amount in return</TitleField>
+        <Order>4</Order>
+      </Column>
+      <Column>
+        <DataField>AmountToShare</DataField>
+        <TitleField>Amount to share</TitleField>
+        <Order>5</Order>
+      </Column>
+      <Column>
+        <DataField>Description</DataField>
+        <TitleField>Description</TitleField>
+        <Order>6</Order>
+      </Column>
+      <Column>
+        <DataField>SpentBy</DataField>
+        <TitleField>Spent by</TitleField>
+        <Order>6</Order>
+      </Column>
+      <!-- Fields to exclude-->
+      <Excluded>
+        <Field>IsRemittance</Field>
+        <Field>BudgetGroup</Field>
+        <Field>ExpenseId</Field>
+        <Field>SpentBy</Field>
+      </Excluded>
+    </ReportColumns>
+    <ShowHeader>true</ShowHeader>
+    <ShowDescription>true</ShowDescription>
+  </ReportData>
+  <ReportStyle>
+    <Header>
+      <content>Expense Report</content>
+      <RowPosition>
+        <Start>1</Start>
+        <End>1</End>
+      </RowPosition>
+      <ColumnPosition>
+        <Start>D</Start>
+        <End>J</End>        
+      </ColumnPosition>
+      <MergeCells>True</MergeCells>
+      <Font>
+        <Size>22</Size>
+        <Name>SketchFlow Print</Name>
+        <Color>blue</Color>
+        <IsBold>true</IsBold>       
+      </Font>
+      <TextAlign>left</TextAlign>
+      <ForegroundColor>blue</ForegroundColor>
+    </Header>
+    <Description>
+      <content>Report Generation for dynamic mliti view exbdasjhjfjdsnjngjgjkfkjghjshgjsh \njbsdjkghjshfjsdhf hfsjdfhdjfdfdk kndjfhdkhfkd djfjkdhfj ....!!!! \njbjsbdjsbdhbhdhdhsdb jbshdbhgqbsqkbwhqiwoqywryqewhn  \nwkjbdjnklajsoiqsg  jwq  fwyqgwblkaNLKAjposjokwb  \nhwebhwbejbjke   \nebbjajsiqhw  heqvehqvebjqbjej   jqebjqbjkqbjbqjeb qvejqvekjqeve2gui2  qeqbnosbajbdshafjh</content>
+      <RowPosition>
+        <Start>1</Start>
+        <End>3</End>
+      </RowPosition>
+      <ColumnPosition>
+        <Start>A</Start>
+        <End>M</End>
+      </ColumnPosition>
+      <MergeCells>True</MergeCells>
+      <Font>
+        <Size>20</Size>
+        <Name>Adobe Caslon Pro Bold</Name>
+        <Color>Gray</Color>
+        <IsBold>true</IsBold>
+      </Font>
+      <WrapText>true</WrapText>
+      <TextAlign>Center</TextAlign>
+      <ForegroundColor>Red</ForegroundColor>
+    </Description>
+  </ReportStyle>
+</ReportDefinition>

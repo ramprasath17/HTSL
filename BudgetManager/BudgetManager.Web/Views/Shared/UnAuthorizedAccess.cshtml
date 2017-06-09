@@ -1,0 +1,13 @@
+﻿@{
+    ViewBag.Title = "UnAuthorizedAccess";
+}
+@section headerLinks
+                {    
+    <li>@Html.ActionLink("Dashboard", "Dashboard", "LoggedIn", new { area = "LoggedInProfile" }, null)</li>
+    <li>@Html.ActionLink("Log out", "LogOut", "LoggedIn", new { area = "LoggedInProfile" }, null)</li>
+}
+<div class="bg-errror">
+    <h2>UnAuthorizedAccess</h2>
+    <a href="@HttpContext.Current.Request.UrlReferrer" class="text-error">Go Back from where you came</a>
+</div>
+<b>Hi @User.Identity.Name!</b> Seems that you are unauthorized to view this page. Please contact your department head.

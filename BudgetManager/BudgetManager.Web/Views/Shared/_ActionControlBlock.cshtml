@@ -1,0 +1,59 @@
+﻿@using BudgetManager.SharedAssembly
+<div class="hidden-phone visible-desktop action-buttons">
+    <a class="blue" href="#" title="View">
+        <i class="icon-zoom-in bigger-130"></i>
+    </a>
+    @if (Html.IsWritable())
+    { 
+        <a class="green" href="#" title="Edit">
+            <i class="icon-pencil bigger-130"></i>
+        </a>
+    }
+    @if (Html.IsDeletable())
+    { 
+        <a class="red" href="#" title="Delete">
+            <i class="icon-trash bigger-130"></i>
+        </a>
+    }
+</div>
+
+<div class="hidden-desktop visible-phone">
+    <div class="inline position-relative">
+        <button class="btn btn-minier btn-yellow dropdown-toggle" data-toggle="dropdown">
+            <i class="icon-caret-down icon-only bigger-120"></i>
+        </button>
+
+        <ul class="dropdown-menu dropdown-icon-only dropdown-yellow pull-right dropdown-caret dropdown-close">
+            <li>
+                <a href="#" class="tooltip-info" data-rel="tooltip" title="View">
+                    <span class="blue">
+                        <i class="icon-zoom-in bigger-120"></i>
+                    </span>
+                </a>
+            </li>
+            @if (Html.IsWritable())
+            {   
+                <li>
+                    <a href="#" class="tooltip-success" data-rel="tooltip" title="Edit">
+                        <span class="green">
+                            <i class="icon-edit bigger-120"></i>
+                        </span>
+                    </a>
+                </li>
+            }
+            @if (Html.IsDeletable())
+            {
+                <li>
+                    <a href="#" class="tooltip-error" data-rel="tooltip" title="Delete">
+                        <span class="red">
+                            <i class="icon-trash bigger-120"></i>
+                        </span>
+                    </a>
+                </li>
+            }
+        </ul>
+    </div>
+</div>
+
+
+

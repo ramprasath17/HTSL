@@ -1,0 +1,114 @@
+@using System.Web.Optimization
+@using BudgetManager.Web
+@using NavigationRoutes
+@using StackExchange.Profiling
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>@ViewBag.Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/Content/images/BGFavicon_new.ico" rel="shortcut icon">
+    @Styles.Render("~/content/css")
+    @Styles.Render("~/Content/themes/base/css")
+    @{
+        ViewBag.AppName = System.Configuration.ConfigurationManager.AppSettings["AppName"];
+    }
+    <style type="text/css">
+        body {
+        }
+
+        .form-signin {
+            max-width: 300px;
+            padding: 19px 29px 29px;
+            margin: 0 auto 20px;
+            background-color: #fff;
+            border: 1px solid #e5e5e5;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+            -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+            -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+            box-shadow: 0 1px 2px rgba(0,0,0,.05);
+        }
+
+            .form-signin .form-signin-heading,
+            .form-signin .checkbox {
+                margin-bottom: 10px;
+            }
+
+            .form-signin input[type="text"],
+            .form-signin input[type="password"] {
+                font-size: 16px;
+                height: auto;
+                margin-bottom: 15px;
+                padding: 7px 9px;
+            }
+    </style>
+    @RenderSection("head", required: false)
+
+    @Html.Partial("_html5shiv")
+    @* favicons and touch icons go here *@
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- Top header-->
+        <div class="row">
+            <div class="navbar navbar-default">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="@Url.Action("Home", new { Controller = "Account", area = "" })">@ViewBag.AppName</a>
+                        <button data-target="#navbar-main" data-toggle="collapse" type="button" class="navbar-toggle">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div id="navbar-main" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a href="#"></a>
+                            </li>
+                        </ul>
+
+                        <ul class="nav navbar-nav navbar-right">
+                            @RenderSection("headerLinks", required: false)
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- For messages/ alert / slides-->
+        <div class="row">
+            <div class="col-xs-6 col-md-4"></div>
+            <div class="col-xs-6 col-md-4"></div>
+            <div class="col-xs-6 col-md-4"></div>
+        </div>
+        
+        @Html.Partial("_alerts")
+        @RenderBody()
+        <hr>
+        <footer>
+            <div class="row">
+                <div class="col-xs-6">
+                    Site links
+                </div>
+                <div class="col-xs-6">
+                    <p class="pull-right">&copy; @ViewBag.AppName @System.DateTime.Now.Year</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- container -->
+
+    @RenderSection("Scripts", required: false)
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryui")
+    @Scripts.Render("~/bundles/jqueryval")
+    @MiniProfiler.RenderIncludes()
+</body>
+</html>
+

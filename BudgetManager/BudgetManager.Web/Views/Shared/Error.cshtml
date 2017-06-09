@@ -1,0 +1,65 @@
+﻿@{
+    if (User.Identity.IsAuthenticated)
+    {
+        Layout = "~/Views/Shared/_ApplicationLayout.cshtml";
+    }
+    else
+    {
+        Layout = "~/Views/Shared/_RoamingProfileLayout.cshtml";
+    }
+
+    ViewBag.Title = "Error Occurred";
+}
+
+<div class="bg-errror">
+    An Error Occurred. 
+    <a href="@HttpContext.Current.Request.UrlReferrer" class="text-error">Go Back</a>
+</div>
+<p>Url Referrer: @HttpContext.Current.Request.UrlReferrer</p>
+
+@if (User.Identity.IsAuthenticated)
+{
+                    
+    @Html.Partial("Error_Authorized")
+
+    @section BootstrapScripts{
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('#exception-status').on("click", function () {
+                    $.gritter.add({
+                        title: 'Error Occurred<hr style="margin:0px;padding:0px;"/>',
+                        text: "<div id='error-message'>@HttpUtility.JavaScriptStringEncode(ViewBag.ErrorMessage)</div>\
+                                <button type='button' class='btn btn-small more pull-right'>\
+                                    More Details\
+                                </button>",
+                        sticky: true,
+                        time: '',
+                        class_name: 'gritter-error gritter-center'
+                    });
+                });
+                $("#exception-status").trigger("click");                
+            });
+
+            $(document).on("click", ".more", function () {
+                $(".modal").fadeIn(1500);
+                $(".gritter-close").trigger("click");
+            });
+
+            $(document).on("click", "button[data-dismiss=modal]", function () {
+                $(".modal").slideUp();
+            });
+        </script>       
+    }    
+}
+else
+{
+    @section headerLinks
+                {
+        <li>@Html.ActionLink("Home", "Home", "Account")</li>
+        <li>@Html.ActionLink("Log In", "Login", "Account")</li>
+        <li>@Html.ActionLink("Sign Up", "Register", "Account")</li>
+        <li><a href="@HttpContext.Current.Request.UrlReferrer" class="text-error">Go Back</a></li>
+    }
+    
+    @Html.Partial("Error_UnAuthorized")   
+}

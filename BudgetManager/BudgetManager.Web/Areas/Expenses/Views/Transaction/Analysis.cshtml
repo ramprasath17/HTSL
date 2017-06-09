@@ -1,0 +1,152 @@
+﻿@model TransactionAnalysisViewModel
+@using BudgetManager.Helpers.HtmlHelperExxtensions
+@{
+    ViewBag.Title = "Analysis";
+}
+
+<div class="row-fluid">
+    <div class="span12">
+        <div class="span12">
+            @using (Ajax.BeginForm("Analysis", null, new AjaxOptions
+{
+    HttpMethod = "Post",
+    UpdateTargetId = "ResultantDataGrid",
+    Url = Url.Action("Analysis"),
+}, htmlAttributes: new { @class = "form-horizontal" }))
+            {
+                Html.EnableClientValidation(true);
+                Html.EnableUnobtrusiveJavaScript(true);
+                @Html.AntiForgeryToken()
+                <div class="span11 widget-container-span ui-sortable">
+                    <div class="widget-box">
+                        <div class="widget-header widget-header-small header-color-blue">
+                            <h6>Money flow analyser
+											</h6>
+
+                            <div class="widget-toolbar">
+                                <a data-action="settings" href="#">
+                                    <i class="icon-cog"></i>
+                                </a>
+
+                                <a data-action="reload" href="#">
+                                    <i class="icon-refresh"></i>
+                                </a>
+
+                                <a data-action="collapse" href="#">
+                                    <i class="icon-chevron-up"></i>
+                                </a>
+
+                                @*                            <a data-action="close" href="#">
+                                <i class="icon-remove"></i>
+                            </a>*@
+                            </div>
+                        </div>
+
+                        <div class="widget-body">
+                            <div class="widget-body-inner" style="display: block;">
+                                <div class="widget-main">
+                                    <div class="control-group">
+                                        @Html.LabelFor(model => model.SelectedFirstUserId, new { @class = "control-label" })
+                                        <div class="controls">
+                                            @Html.DropDownListFor(model => model.SelectedFirstUserId, Model.Users, "Select user - I", new { @class = "chzn-select" })
+                                            @Html.ValidationMessageFor(model => model.SelectedFirstUserId)
+                                        </div>
+                                    </div>
+                                    <hr />
+                                    <div class="control-group">
+                                        @Html.LabelFor(model => model.ActionType, new { @class = "control-label" })
+                                        <div class="controls">
+                                            @Html.EnumDropDownListFor(model => model.SelectedActionType, Model.ActionType, "Select an action", new { @class = "chzn-select" })
+                                            @Html.ValidationMessageFor(model => model.SelectedActionType)
+                                        </div>
+                                    </div>
+                                    <hr />
+                                    <div class="control-group">
+                                        @Html.LabelFor(model => model.SelectedSecondUserId, new { @class = "control-label" })
+                                        <div class="controls">
+                                            @Html.DropDownListFor(model => model.SelectedSecondUserId, Model.Users, "Select user - II", new { @class = "chzn-select" })
+                                            @Html.ValidationMessageFor(model => model.SelectedSecondUserId)
+                                        </div>
+                                    </div>
+                                    <hr />
+                                    <div class="control-group">
+                                        @Html.LabelFor(model => model.Groups, new { @class = "control-label" })
+                                        <div class="controls">
+                                            @Html.DropDownListFor(model => model.SelectedGroupId, Model.Groups, "Select a group", new { @class = "chzn-select" })
+                                            @Html.ValidationMessageFor(model => model.SelectedGroupId)
+                                        </div>
+                                    </div>
+                                    <hr />
+                                    <div class="control-group">
+                                        @Html.LabelFor(model => model.Expenses, new { @class = "control-label" })
+                                        <div class="controls">
+                                            @Html.DropDownListFor(model => model.SelectedExpenseId, Model.Expenses, "Select an expense", new { @class = "chzn-select" })
+                                            @Html.ValidationMessageFor(model => model.SelectedExpenseId)
+                                        </div>
+                                    </div>
+                                    <hr />
+                                    <div class="form-actions">
+                                        <input type="submit" value="Fetch data" data-action="reload" class="pull-right btn btn-success" />
+                                        <div class="infobox infobox-blue infobox-small infobox-dark pull-left" style="height: auto;">
+                                            <div class="infobox-icon">
+											<i class="icon-inr"></i>
+										</div>
+
+                                            <div class="infobox-data">
+                                                <div class="infobox-content">Total</div>
+                                                <i class="icon-inr"></i>
+                                                <span id="ResultantDataGrid">0.00
+                                                </span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            }
+        </div>
+        <div class="span6">
+        </div>
+    </div>
+</div>
+@section BootstrapScripts{
+    @Scripts.Render("~/bundles/jqueryval")
+    <script src="~/Content/AdminTheme/js/jquery.sparkline.min.js"></script>
+    <script src="~/Content/AdminTheme/js/jquery.easy-pie-chart.min.js"></script>
+    <script type="text/javascript">
+        $(".chzn-select").chosen();
+        $(function () {
+            $('.calendar').datetimepicker({
+                language: 'en',
+                format: 'dd/MM/yyyy'
+            });
+        });
+
+        $(function () {
+            $('.easy-pie-chart.percentage').each(function () {
+                var $box = $(this).closest('.infobox');
+                var barColor = $(this).data('color') || (!$box.hasClass('infobox-dark') ? $box.css('color') : 'rgba(255,255,255,0.95)');
+                var trackColor = barColor == 'rgba(255,255,255,0.95)' ? 'rgba(255,255,255,0.25)' : '#E2E2E2';
+                var size = parseInt($(this).data('size')) || 50;
+                $(this).easyPieChart({
+                    barColor: barColor,
+                    trackColor: trackColor,
+                    scaleColor: false,
+                    lineCap: 'butt',
+                    lineWidth: parseInt(size / 10),
+                    animate: /msie\s*(8|7|6)/.test(navigator.userAgent.toLowerCase()) ? false : 1000,
+                    size: size
+                });
+            })
+            $('.sparkline').each(function () {
+                var $box = $(this).closest('.infobox');
+                var barColor = !$box.hasClass('infobox-dark') ? $box.css('color') : '#FFF';
+                $(this).sparkline('html', { tagValuesAttribute: 'data-values', type: 'bar', barColor: barColor, chartRangeMin: $(this).data('min') || 0 });
+            });
+        })
+    </script>
+}

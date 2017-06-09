@@ -1,0 +1,11 @@
+﻿@model DateTime?
+@{
+    string model = string.Empty;
+    if (Model != null && ViewData.ModelState.IsValid)
+    {
+        model = Convert.ToDateTime(Model.ToString()).ToString("dd MMM yyyy");
+    }
+}
+<input type="text" class="datePicker" value="@(model)"/>
+
+

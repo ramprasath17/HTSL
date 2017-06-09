@@ -1,0 +1,9 @@
+D:\Hameed\Project\BudgetManager\BudgetManager.Entities\bin\Release\BudgetManager.Entities.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Entities\bin\Release\BudgetManager.Entities.pdb
+D:\Hameed\Project\BudgetManager\BudgetManager.Entities\bin\Release\BudgetManager.SharedAssembly.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Entities\bin\Release\Elmah.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Entities\bin\Release\Elmah.Mvc.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Entities\bin\Release\BudgetManager.SharedAssembly.pdb
+D:\Hameed\Project\BudgetManager\BudgetManager.Entities\obj\Release\BudgetManager.Entities.csprojResolveAssemblyReference.cache
+D:\Hameed\Project\BudgetManager\BudgetManager.Entities\obj\Release\BudgetManager.Entities.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Entities\obj\Release\BudgetManager.Entities.pdb

@@ -1,0 +1,9 @@
+D:\Hameed\Project\BudgetManager\BudgetManager.Helpers\bin\Release\BudgetManager.Helpers.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Helpers\bin\Release\BudgetManager.Helpers.pdb
+D:\Hameed\Project\BudgetManager\BudgetManager.Helpers\bin\Release\BudgetManager.Entities.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Helpers\bin\Release\BudgetManager.SharedAssembly.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Helpers\bin\Release\BudgetManager.Entities.pdb
+D:\Hameed\Project\BudgetManager\BudgetManager.Helpers\bin\Release\BudgetManager.SharedAssembly.pdb
+D:\Hameed\Project\BudgetManager\BudgetManager.Helpers\obj\Release\BudgetManager.Helpers.csprojResolveAssemblyReference.cache
+D:\Hameed\Project\BudgetManager\BudgetManager.Helpers\obj\Release\BudgetManager.Helpers.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Helpers\obj\Release\BudgetManager.Helpers.pdb

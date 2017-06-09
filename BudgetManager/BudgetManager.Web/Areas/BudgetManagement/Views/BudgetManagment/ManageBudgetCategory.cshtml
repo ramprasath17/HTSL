@@ -1,0 +1,61 @@
+﻿@model ManageBudgetCategoryViewModel
+@{
+    ViewBag.Title = "Manage Budget Category";
+}
+
+<div class="table-header">
+    <h2>Budget Category</h2>
+</div>
+
+@using (Html.BeginForm("ManageBudgetCategory", "ManageBudgetCategory", new { area = "BudgetManagement" }, FormMethod.Post, htmlAttributes: new { id = "BudgetForm", @class = "form-horizontal" }))
+{
+    @Html.AntiForgeryToken()                   
+
+    if (Model.HasEditAccess)
+    {
+        @Html.Partial("_CreateBudgetCategory", Model.AddCategory)
+    }
+    else
+    {
+    <div>Not allowed to create a budget type/category.</div>
+    }
+}
+
+@Html.Partial("_BudgetCategory", Model)
+@{
+    string tableId = "Budget"; 
+}
+@Html.Partial("_EditModalPopUp", tableId)
+
+@section BootstrapScripts
+{
+    @Scripts.Render("~/bundles/jqueryval")
+    @Scripts.Render("~/LogInBundle/Scripts/js")            
+    <script type="text/javascript">
+        $(function () {
+            applyGridProperties("#BudgetTable");
+        });
+
+        $("button[data-dismiss=modal]").click(function () {
+            $("#@tableId-edit-table").addClass("hide");
+        });
+
+        $("a[title=Delete]").deleteSelectedRecord({
+            actionUrl: "@Url.Action("DeleteSelectedItem", "ComponentAction", new { area = "" })",
+            tableId: "BudgetTable"
+        });
+
+        $("a[title=Edit]").updateSelectedRecord({
+            componentType: 'C',
+            actionUrl: "@Url.Action("UpdateSelectedComponentRecord", "ComponentAction", new { area = "" })",
+            tableId: "@tableId",
+            currencyType: "inr",
+            onSuccess: function () {
+                $(".update-info").show();
+                $(".update-info").fadeOut(4000);                
+                $("#BudgetTable").trigger("reloadGrid");
+            }
+        });
+    </script>
+
+}

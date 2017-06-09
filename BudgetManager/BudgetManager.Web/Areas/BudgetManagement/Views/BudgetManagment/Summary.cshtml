@@ -1,0 +1,83 @@
+﻿@model ManageBudgetViewModel
+@{
+    ViewBag.Title = "Summary";
+}
+
+<div class="row-fluid">
+    <h3 class="header smaller lighter blue">Summary</h3>
+    <div class="row-fluid">
+        <div class="table-header">
+            <span>You can view and export the Summary Budget data.</span>
+            <span class="pull-right marginRight10px">                
+                <span class="badge badge-success"><i class="icon-file-alt"></i>&nbsp;@Html.ActionLink("Excel", "Download", routeValues: new { fileType = "Excel" }, htmlAttributes: new { @class = "whiteLink" })</span>
+                <span class="badge badge-warning"><i class="icon-file-alt"></i>&nbsp;@Html.ActionLink("Pdf", "Download", routeValues: new { fileType = "Pdf" }, htmlAttributes: new { @class = "whiteLink" })</span>
+            </span>
+        </div>
+        <div role="grid" class="dataTables_wrapper" id="sample-table-1_wrapper">
+            <table class="table table-striped table-bordered table-hover" id="BudgetTable">
+                <thead>
+                    <tr role="row">
+                        <th role="columnheader">Budget Name</th>
+                        <th role="columnheader">Period</th>
+                        <th role="columnheader">Category</th>
+                        <th role="columnheader">Allocated amount</th>
+                        <th role="columnheader">Spent amount</th>
+                        <th role="columnheader">Over / Under / Levelled</th>
+                        <th role="columnheader">Status</th>
+                    </tr>
+                </thead>
+
+                <tbody role="alert" aria-live="polite" aria-relevant="all">
+                    @foreach (BudgetDetails budgetDetailsModel in Model.BudgetDetails)
+                    {
+                        <tr data-record-id="@budgetDetailsModel.BudgetId">
+                            <td  data-column="BudgetName">
+                                @budgetDetailsModel.BudgetName
+                            </td>
+                            <td  data-column="Period">
+                                @Html.DisplayFor(m => budgetDetailsModel.StartDate) <i class="icon-arrow-right"></i> @Html.DisplayFor(m => budgetDetailsModel.EndDate)
+                            </td>
+                            <td  data-column="Category">
+                                @Html.DisplayFor(m => budgetDetailsModel.SelectedCategory)
+                            </td>
+                            <td  data-column="MaximumAmountAllocated">
+                                <i class="icon-inr"></i>
+                                @Html.DisplayFor(m => budgetDetailsModel.MaximumAmountAllocated)</td>
+                            <td  data-column="MaximumAmountAllocated" data-control-type="currency" data-type="numeric">
+                                <i class="icon-inr"></i>
+                                @Html.DisplayFor(m => budgetDetailsModel.SpentAmount)</td>
+                            <td class="center" data-column="Level">
+                                <i class="@budgetDetailsModel.Level.LabelText" title="@budgetDetailsModel.Level.ToolTipText"></i>
+                            </td>
+                            <td class="center" data-column="Status">
+                                <i class="@budgetDetailsModel.Status.LabelText" title="@budgetDetailsModel.Status.ToolTipText"></i>                                
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!--/span-->
+</div>
+@{
+    string tableId = "Budget"; 
+}
+@Html.Partial("_EditModalPopUp", tableId)
+
+<!--PAGE CONTENT ENDS-->
+<link href="~/Content/jquery-ui-1.10.4.custom.css" rel="stylesheet" />
+@section BootstrapScripts{
+
+    <script type="text/javascript">
+        $(function () {
+            $(document).on("focus", ".calendar", function () {
+                $(this).datepicker({ dateFormat: "dd M yy" }); // Date Format - 25 Jun 2014
+            });
+        });
+
+        $(function () {
+            applyGridProperties("#BudgetTable");
+        });
+    </script>
+}

@@ -1,0 +1,63 @@
+﻿@model IEnumerable<CalculatedExpenseViewModel>
+<table class="table table-striped table-bordered table-hover" id="OverAllExpenseTable">
+    <thead>
+        <tr role="row">
+            <th role="columnheader">Description</th>
+            <th role="columnheader">User Name</th>
+            <th role="columnheader">Budget Group</th>
+            <th role="columnheader">Amount to share</th>
+            <th role="columnheader">Amount to bear</th>
+            <th role="columnheader">Spent On</th>
+            <th role="columnheader">Spent Amount</th>
+            <th role="columnheader" class="hidden-480">Spent By</th>
+            <th role="columnheader" class="hidden-480">Notify</th>
+        </tr>
+    </thead>
+
+    <tbody role="alert" aria-live="polite" aria-relevant="all">
+        @foreach (CalculatedExpenseViewModel expenseDetails in Model)
+        {
+            <tr data-record-id="" data-component="O">
+                <td data-editable="true" data-column="Description">@expenseDetails.ExpenseDescription</td>
+                <td data-editable="true" data-column="UserInExpense">@expenseDetails.UserInExpense</td>
+                <td data-editable="true" data-column="BudgetGroup">@expenseDetails.BudgetGroup</td>
+                <td data-editable="true" data-column="AmountToShare">
+                    <i class="icon-inr"></i>
+                    @Html.DisplayFor(m => expenseDetails.AmountToShare)
+                </td>
+                <td data-editable="true" data-column="AmountInReturn" data-control-type="currency" data-type="numeric">
+                    @if (expenseDetails.IsRemittance)
+                    {
+                        @: <div class="badge badge-important">
+                                }
+                    else
+                    {
+                        @: <div class="badge badge-success">
+                                }
+                    <i class="icon-inr"></i>
+                                @Html.DisplayFor(m => expenseDetails.AmountInReturn)
+                                     @{
+                                         @: </div>
+                    }
+                </td>
+                <td data-editable="true" data-column="SpentDate" data-control-type="date" data-type="date">
+                    @Html.DisplayFor(m => expenseDetails.SpentOn)
+                </td>
+                <td data-editable="true" data-column="SpentAmount" data-control-type="select" data-lookup="Users">
+                    <i class="icon-inr"></i>
+                    @Html.DisplayFor(m => expenseDetails.SpentAmount)
+                </td>
+                <td class="hidden-480" data-editable="true" data-column="SpentBy" data-control-type="select" data-lookup="Users">
+                    @Html.DisplayFor(m => expenseDetails.SpentBy)
+                </td>
+                <td class="hidden-480" data-editable="false">
+                    @*@Html.ActionLink("", "", null, htmlAttributes: new { @class = "icon-envelope" })*@
+                    @if (expenseDetails.SpentAmount <= 0 || expenseDetails.SpentAmount == null || expenseDetails.AmountInReturn <= 0)
+                    {   
+                        <a href="javascript:void(0);" class="text-center icon-envelope notify-expense" data-send-to="@expenseDetails.UserInExpense" data-send-from="@expenseDetails.SpentBy" data-expense-id="@expenseDetails.ExpenseId"></a>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

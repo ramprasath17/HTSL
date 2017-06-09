@@ -1,0 +1,6 @@
+D:\Hameed\Project\BudgetManager\BudgetManager.Security\bin\Release\BudgetManager.Security.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Security\bin\Release\BudgetManager.Security.pdb
+D:\Hameed\Project\BudgetManager\BudgetManager.Security\bin\Release\Elmah.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Security\bin\Release\Elmah.Mvc.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Security\obj\Release\BudgetManager.Security.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.Security\obj\Release\BudgetManager.Security.pdb

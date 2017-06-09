@@ -1,0 +1,176 @@
+﻿@model AccountSettingsViewModel
+@{
+    ViewBag.Title = "Account Settings";
+    Layout = "~/Views/Shared/_ApplicationLayout.cshtml";
+}
+@using (Html.BeginForm("Settings", "Account", null, FormMethod.Post, htmlAttributes: new { @class = "form-horizontal" }))
+{
+
+    Html.EnableClientValidation(true);
+    Html.EnableUnobtrusiveJavaScript(true);    
+    Html.AntiForgeryToken();
+    <div class="clearfix">
+        <div class="pull-left alert alert-success inline no-margin">
+            <button type="button" class="close" data-dismiss="alert">
+                <i class="icon-remove"></i>
+            </button>
+
+            <i class="icon-umbrella bigger-120 blue"></i>
+            Click on the image below or on profile fields to edit them
+        </div>
+
+        <div class="pull-right">
+            <span class="green middle bolder">Choose profile: &nbsp;</span>
+
+            <div class="btn-toolbar inline middle no-margin">
+                <div data-toggle="buttons-radio" class="btn-group no-margin">
+                    <button class="btn btn-small btn-yellow active">
+                        <span class="bigger-110">1</span>
+                    </button>
+
+                    <button class="btn btn-small btn-yellow">
+                        <span class="bigger-110">2</span>
+                    </button>
+
+                    <button class="btn btn-small btn-yellow">
+                        <span class="bigger-110">3</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="hr dotted"></div>
+
+    <div class="">
+        <div id="user-profile-3" class="user-profile row-fluid">
+            <div class="offset1 span10">
+                <div class="well well-small">
+                    <button type="button" class="close" data-dismiss="alert">&times;</button>
+                    &nbsp;
+											<div class="inline middle blue bigger-110">Your profile is 70% complete </div>
+
+                    &nbsp; &nbsp; &nbsp;
+											<div style="width: 200px;" data-percent="70%" class="inline middle no-margin progress progress-success progress-striped active">
+                                                <div class="bar" style="width: 70%"></div>
+                                            </div>
+                </div>
+                <!--/well-->
+
+                <div class="space"></div>
+                
+                <div class="tabbable">
+                    <ul class="nav nav-tabs padding-16">
+                        <li class="active">
+                            <a data-toggle="tab" href="#edit-basic">
+                                <i class="green icon-edit bigger-125"></i>
+                                Basic Info
+                            </a>
+                        </li>
+
+                        <li>
+                            <a data-toggle="tab" href="#edit-settings">
+                                <i class="purple icon-cog bigger-125"></i>
+                                Settings
+                            </a>
+                        </li>
+
+                        <li>
+                            <a data-toggle="tab" href="#edit-password">
+                                <i class="blue icon-key bigger-125"></i>
+                                Password
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content profile-edit-tab-content">
+                        <div id="edit-basic" class="tab-pane in active">
+                            @Html.EditorFor(settings => settings, "BasicInfo")
+                        </div>
+
+                        <div id="edit-settings" class="tab-pane">
+                            @Html.EditorFor(settings => settings, "AppSettings")
+                        </div>
+
+                        <div id="edit-password" class="tab-pane">
+                            @Html.EditorFor(settings => settings, "ChangePassword")
+                            @Html.ValidationMessageFor(settings => settings.ConfirmPassword)
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-actions">
+                    <button class="btn btn-info" type="submit">
+                        <i class="icon-ok bigger-110"></i>
+                        Save
+                    </button>
+
+                    &nbsp; &nbsp; &nbsp;
+												<button class="btn" type="reset">
+                                                    <i class="icon-undo bigger-110"></i>
+                                                    Reset
+                                                </button>
+                </div>
+            </div>
+            <!--/span-->
+        </div>
+        <!--/user-profile-->
+    </div>
+}
+@section BootstrapScripts{
+    @Scripts.Render("~/bundles/jqueryval")
+    <script type="text/javascript">
+        $(function () {
+            $('.calendar').datetimepicker({
+                language: 'en',
+                maxDate: 0
+                //format: 'dd MM yyyy',
+                //setDate: new Date(),
+            });
+        });
+
+        $(document).ready(function () {
+            $('#user-profile-3')
+                        .find('input[type=file]').ace_file_input({
+                            style: 'well',
+                            btn_choose: 'Change avatar',
+                            btn_change: null,
+                            no_icon: 'icon-picture',
+                            thumbnail: 'large',
+                            droppable: true,
+                            before_change: function (files, dropped) {
+                                var file = files[0];
+                                if (typeof file === "string") {//files is just a file name here (in browsers that don't support FileReader API)
+                                    if (!(/\.(jpe?g|png|gif)$/i).test(file)) return false;
+                                }
+                                else {//file is a File object
+                                    var type = $.trim(file.type);
+                                    if ((type.length > 0 && !(/^image\/(jpe?g|png|gif)$/i).test(type))
+                                            || (type.length == 0 && !(/\.(jpe?g|png|gif)$/i).test(file.name))//for android default browser!
+                                        ) return false;
+
+                                    if (file.size > 110000) {//~100Kb
+                                        return false;
+                                    }
+                                }
+
+                                return true;
+                            }
+                        })
+                        .end().find('button[type=reset]').on(ace.click_event, function () {
+                            $('#user-profile-3 input[type=file]').ace_file_input('reset_input');
+                        })
+            //.end().find('.date-picker').datepicker().next().on(ace.click_event, function () {
+            //    $(this).prev().focus();
+            //});
+
+            //$(function () {
+            //    $('.date-picker').datetimepicker({
+            //        language: 'en',
+            //        format: 'dd MM yyyy'
+            //    });
+            //});
+        });
+    </script>
+}

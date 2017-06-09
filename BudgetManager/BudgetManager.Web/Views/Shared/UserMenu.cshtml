@@ -1,0 +1,19 @@
+﻿@model IEnumerable<UserMenu>
+@if (Model != null)
+{
+    foreach (UserMenu menuItem in Model)
+    {
+    <li class="open">
+        <a class="dropdown-toggle" href="#">
+            <i class="icon-desktop"></i>
+            <span class="menu-text">@menuItem.GroupMenuTitle </span>
+
+            <b class="arrow icon-angle-down"></b>
+        </a>
+
+        <ul class="submenu" style="display: none;">
+            @Html.DisplayFor(model => menuItem.Links, "UserScreenLink")
+        </ul>
+    </li>
+    }
+}

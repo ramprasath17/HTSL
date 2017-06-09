@@ -1,0 +1,78 @@
+﻿@{
+    ViewBag.Title = "InviteAFriend";
+}
+
+<h2>Invite A Friend</h2>
+
+<div class="row-fluid">
+    <div class="span12">
+        <div class="span2">
+            <label for="form-field-8">Search user</label>
+        </div>
+        <div class="span4">
+            <div class="control-group">
+                <div class="row-fluid input-append">
+                    @Html.TextBox("username", "", htmlAttributes: new { id = "userSearch", placeholder = "Enter user name to search", @class = "input-large" })
+                    <span class="add-on">
+                        <i class="icon-search"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="invite-status"></div>
+<div id="userSearchResult"></div>
+@section BootstrapScripts
+{
+    <script type="text/javascript">
+        var inviteStatus = "";
+        var statusClass = "gritter-success";
+        $("#userSearch").keyup(function () {
+            var actionUrl = "@Url.Action("GetUsers", "InviteFriends")";
+            var userName = $(this).val();
+            if (userName !== "") {
+                actionUrl = actionUrl + "?userName=" + userName;
+                $("#userSearch").attr("disabled", "disabled");
+                $.get(actionUrl, function (data) {
+                    $("#userSearchResult").html(data);
+                    $("#userSearch").removeAttr("disabled", "disabled");
+                });
+            }
+        });
+        $(document).on("click", ".invite", function () {
+            var userId = $(this).parent().parent().data("user");
+            var actionUrl = "@Url.Action("InviteAFriend", "InviteFriends")";
+            actionUrl = actionUrl + "?userId=" + userId;
+            var $objInviteButton = $(this);
+            $objInviteButton.hide();
+            $.post(actionUrl, function (data) {
+                Console.log(data);
+                if (data == true) {
+                    $objInviteButton.parent().html('<span class="label label-info arrowed">Pending</span>');
+                    inviteStatus = 'Invitation sent successfully!';
+                    $('#invite-status').trigger("click");
+                }
+                else {
+                    $objInviteButton.parent().html('<a href="javascript:void(0);" class="invite label label-important arrowed-right arrowed-in">Invite failed.</a>');
+                    inviteStatus = 'There was an error sending invitation. Please again later or report to the concerned authority';
+                    statusClass = "gritter-error";
+                    $('#invite-status').trigger("click");
+                }
+            });
+        });
+        $(document).ready(function () {
+            $('#invite-status').on(ace.click_event, function () {
+                $.gritter.add({
+                    title: 'Invite Status!',
+                    text: 'There was an error sending invitation. Please try again later or report to the concerned authority.',
+                    sticky: false,
+                    time: '',
+                    class_name: statusClass + ' gritter-center'
+                });
+            });
+
+            return false;
+        });
+    </script>
+}

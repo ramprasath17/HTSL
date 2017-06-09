@@ -1,0 +1,10 @@
+D:\Hameed\Project\BudgetManager\BudgetManager.DataLibrary\bin\Release\BudgetManager.DataLibrary.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.DataLibrary\bin\Release\BudgetManager.DataLibrary.pdb
+D:\Hameed\Project\BudgetManager\BudgetManager.DataLibrary\bin\Release\Elmah.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.DataLibrary\bin\Release\Elmah.Mvc.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.DataLibrary\bin\Release\MiniProfiler.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.DataLibrary\bin\Release\MiniProfiler.pdb
+D:\Hameed\Project\BudgetManager\BudgetManager.DataLibrary\bin\Release\MiniProfiler.xml
+D:\Hameed\Project\BudgetManager\BudgetManager.DataLibrary\obj\Release\BudgetManager.DataLibrary.csprojResolveAssemblyReference.cache
+D:\Hameed\Project\BudgetManager\BudgetManager.DataLibrary\obj\Release\BudgetManager.DataLibrary.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.DataLibrary\obj\Release\BudgetManager.DataLibrary.pdb

@@ -1,0 +1,4 @@
+D:\Hameed\Project\BudgetManager\BudgetManager.ReportSchemaValidator\bin\Release\BudgetManager.ReportSchemaValidator.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.ReportSchemaValidator\bin\Release\BudgetManager.ReportSchemaValidator.pdb
+D:\Hameed\Project\BudgetManager\BudgetManager.ReportSchemaValidator\obj\Release\BudgetManager.ReportSchemaValidator.dll
+D:\Hameed\Project\BudgetManager\BudgetManager.ReportSchemaValidator\obj\Release\BudgetManager.ReportSchemaValidator.pdb
